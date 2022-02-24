@@ -30,7 +30,7 @@
     "web-components"
   ],
   "author": "Vaadin Ltd",
-  "license": "Apache-2.0",
+  "license": "(Apache-2.0 OR SEE LICENSE IN https://vaadin.com/license/cvdl-4.0)",
   "bugs": {
     "url": "https://github.com/vaadin/platform/issues"
   },
