@@ -14,11 +14,5 @@ export const exposePackages = {
    * be bundled as dependencies.
    */
   exclude: [
-    // Keeping lit libraries in sync between the bundle and user applications
-    // is hard. However it seems to be safe to not 
-    '@lit/reactive-element',
-    'lit',
-    'lit-html',
-    'lit-element',
   ]
 };

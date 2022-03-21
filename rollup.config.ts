@@ -7,7 +7,15 @@ import { bundleInfoRollupPlugin } from './src/lib/bundle-info-rollup-plugin';
 const rollupOptions: RollupOptions = {
   input: 'src/vaadin.js',
   preserveSymlinks: true,
-  plugins: [bundleInfoRollupPlugin({ modulesDirectory, exposePackages }), nodeResolve({})],
+  plugins: [
+    bundleInfoRollupPlugin({
+      modulesDirectory,
+      exposePackages
+    }),
+    nodeResolve({
+      exportConditions: ['development']
+    })
+  ],
   output: {
     format: 'esm',
     dir: path.resolve('./'),

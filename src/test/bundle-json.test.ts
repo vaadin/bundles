@@ -6,12 +6,13 @@ import { PackageInfo } from '../lib/package-info';
 
 describe('vaadin-bundle.json', () => {
   let bundleJson: BundleJson;
+  let packageJson;
   let bundleVersion;
 
   before(async () => {
     bundleJson = JSON.parse(await readFile('vaadin-bundle.json', { encoding: 'utf8' }));
-
-    bundleVersion = JSON.parse(await readFile('package.json', { encoding: 'utf8' })).version;
+    packageJson = JSON.parse(await readFile('package.json', { encoding: 'utf8' }));
+    bundleVersion = packageJson.version;
   });
 
   class PackageNotFoundError extends Error {
@@ -77,17 +78,7 @@ describe('vaadin-bundle.json', () => {
   });
 
   it('should expose platform pinned @webcomponents/shadycss', () => {
-    expect(getPackage('@webcomponents/shadycss').version).to.equal("1.9.6");
-  });
-
-  it('shoud not expose lit dependencies', () => {
-    // It is hard to keep lit in sync between the user applications and
-    // the bundle. Luckily, we can keep lit libraries only bundled for internal
-    // use, and not exposed for the user applications.
-    expect(() => getPackage('lit')).to.throw(PackageNotFoundError);
-    expect(() => getPackage('lit-html')).to.throw(PackageNotFoundError);
-    expect(() => getPackage('lit-element')).to.throw(PackageNotFoundError);
-    expect(() => getPackage('@lit/reactive-element')).to.throw(PackageNotFoundError);
+    expect(getPackage('@webcomponents/shadycss').version).to.equal("1.11.0");
   });
 
   it('should list all packages in all-imports', async () => {
@@ -106,6 +97,17 @@ describe('vaadin-bundle.json', () => {
 ${Array.from(missingPackageNames).join('\n')}
 
 Please add import or ignore line(s) for these.`);
+    }
+  });
+
+  it('should list all packages in as optional peer dependencies',async () => {
+    expect(packageJson).to.have.property('peerDependencies').that.is.an('object');
+    const peerDependencies = packageJson.peerDependencies as Record<string, string>;
+    expect(packageJson).to.have.property('peerDependenciesMeta').that.is.an('object');
+    const peerDependenciesMeta = packageJson.peerDependenciesMeta as Record<string, {optional?: boolean}>;
+    for (const [packageName, packageInfo] of Object.entries(bundleJson.packages)) {
+      expect(peerDependencies).to.have.property(packageName, packageInfo.version);
+      expect(peerDependenciesMeta).to.have.deep.property(packageName, {optional: true});
     }
   });
 });
