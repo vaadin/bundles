@@ -2,6 +2,7 @@ import { createFilter, FilterPattern } from '@rollup/pluginutils';
 import type { Program } from 'estree';
 import type { FunctionDeclaration, Identifier, Property, VariableDeclarator } from 'estree';
 import { walk } from 'estree-walker';
+import * as fs from 'fs/promises';
 import { posix as path } from 'path';
 import { Plugin } from 'rollup';
 import { BundleStore } from './bundle-store';
@@ -144,12 +145,26 @@ export const bundleInfoRollupPlugin = (
       return '';
     },
 
-    generateBundle() {
+    async generateBundle() {
+      const bundleJson = bundleStore.getBundleJson();
       this.emitFile({
         type: 'asset',
         fileName: 'vaadin-bundle.json',
-        source: JSON.stringify(bundleStore.getBundleJson(), undefined, 2)
+        source: JSON.stringify(bundleJson, undefined, 2)
       });
+
+      // update peer dependencies in package.json
+      const peerDependencies: Record<string, string> = {};
+      const peerDependenciesMeta: Record<string, {optional?: true}> = {};
+      for (const [packageName, packageInfo] of Object.entries(bundleJson.packages)) {
+        peerDependencies[packageName] = packageInfo.version;
+        peerDependenciesMeta[packageName] = {optional: true};
+      }
+      const packageJsonPath = path.resolve(process.cwd(), 'package.json');
+      const packageJson = JSON.parse(await fs.readFile(packageJsonPath, {encoding: 'utf8'}));
+      packageJson.peerDependencies = peerDependencies;
+      packageJson.peerDependenciesMeta = peerDependenciesMeta;
+      await fs.writeFile(packageJsonPath, JSON.stringify(packageJson, undefined, 2), {encoding: 'utf8'});
     }
   };
 };

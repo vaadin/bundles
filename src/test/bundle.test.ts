@@ -59,29 +59,5 @@ describe('vaadin.js', () => {
         expect((error as Error).message).to.contain('does not exist in container');
       }
     });
-
-    it('should not contain lit', async () => {
-      let error;
-      try {
-        await get('./node_modules/lit');
-      } catch (e: unknown) {
-        error = e;
-      } finally {
-        expect(error).to.be.instanceOf(Error);
-        expect((error as Error).message).to.contain('does not exist in container');
-      }
-    });
-
-    it('should not contain lit/index.js', async () => {
-      let error;
-      try {
-        await get('./node_modules/lit/index.js');
-      } catch (e: unknown) {
-        error = e;
-      } finally {
-        expect(error).to.be.instanceOf(Error);
-        expect((error as Error).message).to.contain('does not exist in container');
-      }
-    });
   });
 });

@@ -21,7 +21,10 @@ export default {
     vaadin: './src/vaadin.js'
   },
   resolve: {
-    symlinks: false
+    symlinks: false,
+    conditionNames: [
+      'development'
+    ]
   },
   module: {
     rules: [
