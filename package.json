@@ -1,6 +1,6 @@
 {
   "name": "@vaadin/bundles",
-  "version": "23.0.2",
+  "version": "23.0.3",
   "publishConfig": {
     "access": "public"
   },
@@ -47,66 +47,66 @@
     "@types/chai": "^4.2.11",
     "@types/mocha": "^9.1.0",
     "@types/node": "^17.0.19",
-    "@vaadin/accordion": "23.0.2",
-    "@vaadin/app-layout": "23.0.2",
-    "@vaadin/avatar-group": "23.0.2",
-    "@vaadin/avatar": "23.0.2",
-    "@vaadin/board": "23.0.2",
-    "@vaadin/button": "23.0.2",
-    "@vaadin/charts": "23.0.2",
-    "@vaadin/checkbox-group": "23.0.2",
-    "@vaadin/checkbox": "23.0.2",
-    "@vaadin/combo-box": "23.0.2",
-    "@vaadin/component-base": "23.0.2",
-    "@vaadin/confirm-dialog": "23.0.2",
-    "@vaadin/context-menu": "23.0.2",
-    "@vaadin/cookie-consent": "23.0.2",
-    "@vaadin/crud": "23.0.2",
-    "@vaadin/custom-field": "23.0.2",
-    "@vaadin/date-picker": "23.0.2",
-    "@vaadin/date-time-picker": "23.0.2",
-    "@vaadin/details": "23.0.2",
-    "@vaadin/dialog": "23.0.2",
-    "@vaadin/email-field": "23.0.2",
-    "@vaadin/field-base": "23.0.2",
-    "@vaadin/field-highlighter": "23.0.2",
-    "@vaadin/form-layout": "23.0.2",
-    "@vaadin/grid-pro": "23.0.2",
-    "@vaadin/grid": "23.0.2",
-    "@vaadin/horizontal-layout": "23.0.2",
-    "@vaadin/icon": "23.0.2",
-    "@vaadin/icons": "23.0.2",
-    "@vaadin/input-container": "23.0.2",
-    "@vaadin/integer-field": "23.0.2",
-    "@vaadin/item": "23.0.2",
-    "@vaadin/list-box": "23.0.2",
-    "@vaadin/login": "23.0.2",
-    "@vaadin/map": "23.0.2",
-    "@vaadin/menu-bar": "23.0.2",
-    "@vaadin/message-input": "23.0.2",
-    "@vaadin/message-list": "23.0.2",
-    "@vaadin/notification": "23.0.2",
-    "@vaadin/number-field": "23.0.2",
-    "@vaadin/password-field": "23.0.2",
-    "@vaadin/polymer-legacy-adapter": "23.0.2",
-    "@vaadin/progress-bar": "23.0.2",
-    "@vaadin/radio-group": "23.0.2",
-    "@vaadin/rich-text-editor": "23.0.2",
-    "@vaadin/scroller": "23.0.2",
-    "@vaadin/select": "23.0.2",
-    "@vaadin/split-layout": "23.0.2",
-    "@vaadin/tabs": "23.0.2",
-    "@vaadin/text-area": "23.0.2",
-    "@vaadin/text-field": "23.0.2",
-    "@vaadin/time-picker": "23.0.2",
-    "@vaadin/upload": "23.0.2",
-    "@vaadin/vaadin-lumo-styles": "23.0.2",
-    "@vaadin/vaadin-list-mixin": "23.0.2",
-    "@vaadin/vaadin-themable-mixin": "23.0.2",
+    "@vaadin/accordion": "23.0.3",
+    "@vaadin/app-layout": "23.0.3",
+    "@vaadin/avatar-group": "23.0.3",
+    "@vaadin/avatar": "23.0.3",
+    "@vaadin/board": "23.0.3",
+    "@vaadin/button": "23.0.3",
+    "@vaadin/charts": "23.0.3",
+    "@vaadin/checkbox-group": "23.0.3",
+    "@vaadin/checkbox": "23.0.3",
+    "@vaadin/combo-box": "23.0.3",
+    "@vaadin/component-base": "23.0.3",
+    "@vaadin/confirm-dialog": "23.0.3",
+    "@vaadin/context-menu": "23.0.3",
+    "@vaadin/cookie-consent": "23.0.3",
+    "@vaadin/crud": "23.0.3",
+    "@vaadin/custom-field": "23.0.3",
+    "@vaadin/date-picker": "23.0.3",
+    "@vaadin/date-time-picker": "23.0.3",
+    "@vaadin/details": "23.0.3",
+    "@vaadin/dialog": "23.0.3",
+    "@vaadin/email-field": "23.0.3",
+    "@vaadin/field-base": "23.0.3",
+    "@vaadin/field-highlighter": "23.0.3",
+    "@vaadin/form-layout": "23.0.3",
+    "@vaadin/grid-pro": "23.0.3",
+    "@vaadin/grid": "23.0.3",
+    "@vaadin/horizontal-layout": "23.0.3",
+    "@vaadin/icon": "23.0.3",
+    "@vaadin/icons": "23.0.3",
+    "@vaadin/input-container": "23.0.3",
+    "@vaadin/integer-field": "23.0.3",
+    "@vaadin/item": "23.0.3",
+    "@vaadin/list-box": "23.0.3",
+    "@vaadin/login": "23.0.3",
+    "@vaadin/map": "23.0.3",
+    "@vaadin/menu-bar": "23.0.3",
+    "@vaadin/message-input": "23.0.3",
+    "@vaadin/message-list": "23.0.3",
+    "@vaadin/notification": "23.0.3",
+    "@vaadin/number-field": "23.0.3",
+    "@vaadin/password-field": "23.0.3",
+    "@vaadin/polymer-legacy-adapter": "23.0.3",
+    "@vaadin/progress-bar": "23.0.3",
+    "@vaadin/radio-group": "23.0.3",
+    "@vaadin/rich-text-editor": "23.0.3",
+    "@vaadin/scroller": "23.0.3",
+    "@vaadin/select": "23.0.3",
+    "@vaadin/split-layout": "23.0.3",
+    "@vaadin/tabs": "23.0.3",
+    "@vaadin/text-area": "23.0.3",
+    "@vaadin/text-field": "23.0.3",
+    "@vaadin/time-picker": "23.0.3",
+    "@vaadin/upload": "23.0.3",
+    "@vaadin/vaadin-lumo-styles": "23.0.3",
+    "@vaadin/vaadin-list-mixin": "23.0.3",
+    "@vaadin/vaadin-themable-mixin": "23.0.3",
     "@vaadin/vaadin-development-mode-detector": "^2.0.0",
     "@vaadin/vaadin-usage-statistics": "^2.1.0",
-    "@vaadin/virtual-list": "23.0.2",
-    "@vaadin/vertical-layout": "23.0.2",
+    "@vaadin/virtual-list": "23.0.3",
+    "@vaadin/vertical-layout": "23.0.3",
     "chai": "^4.3.4",
     "lit": "2.1.4",
     "mocha": "^9.2.0",
@@ -118,130 +118,121 @@
     "webpack-cli": "^4.9.2"
   },
   "peerDependencies": {
-    "lit": "2.1.4",
-    "@vaadin/grid": "23.0.2",
-    "@vaadin/form-layout": "23.0.2",
-    "@vaadin/login": "23.0.2",
-    "@vaadin/grid-pro": "23.0.2",
-    "@vaadin/app-layout": "23.0.2",
-    "lit-html": "2.2.1",
-    "@lit/reactive-element": "1.3.1",
     "lit-element": "3.2.0",
+    "lit-html": "2.2.1",
+    "lit": "2.1.4",
+    "@vaadin/app-layout": "23.0.3",
+    "@vaadin/grid": "23.0.3",
+    "@vaadin/login": "23.0.3",
+    "@vaadin/form-layout": "23.0.3",
+    "@vaadin/grid-pro": "23.0.3",
+    "@lit/reactive-element": "1.3.1",
     "cookieconsent": "3.1.1",
+    "@vaadin/accordion": "23.0.3",
+    "@vaadin/button": "23.0.3",
+    "@vaadin/avatar-group": "23.0.3",
+    "@vaadin/checkbox-group": "23.0.3",
+    "@vaadin/avatar": "23.0.3",
+    "@vaadin/combo-box": "23.0.3",
     "highcharts": "9.2.2",
-    "@vaadin/accordion": "23.0.2",
-    "@vaadin/avatar-group": "23.0.2",
-    "@vaadin/button": "23.0.2",
-    "@vaadin/checkbox": "23.0.2",
-    "@vaadin/checkbox-group": "23.0.2",
-    "@vaadin/context-menu": "23.0.2",
-    "@vaadin/avatar": "23.0.2",
-    "@vaadin/combo-box": "23.0.2",
-    "@vaadin/date-picker": "23.0.2",
-    "@vaadin/custom-field": "23.0.2",
-    "@vaadin/date-time-picker": "23.0.2",
-    "@vaadin/email-field": "23.0.2",
-    "@vaadin/icon": "23.0.2",
-    "@vaadin/dialog": "23.0.2",
-    "@vaadin/item": "23.0.2",
-    "@vaadin/details": "23.0.2",
-    "@vaadin/menu-bar": "23.0.2",
-    "@vaadin/integer-field": "23.0.2",
-    "@vaadin/message-input": "23.0.2",
-    "@vaadin/list-box": "23.0.2",
-    "@vaadin/progress-bar": "23.0.2",
-    "@vaadin/horizontal-layout": "23.0.2",
-    "@vaadin/message-list": "23.0.2",
-    "@vaadin/password-field": "23.0.2",
-    "@vaadin/notification": "23.0.2",
-    "@vaadin/select": "23.0.2",
-    "@vaadin/scroller": "23.0.2",
-    "@vaadin/icons": "23.0.2",
-    "@vaadin/text-area": "23.0.2",
-    "@vaadin/tabs": "23.0.2",
-    "@vaadin/time-picker": "23.0.2",
-    "@vaadin/radio-group": "23.0.2",
-    "@vaadin/split-layout": "23.0.2",
-    "@vaadin/number-field": "23.0.2",
-    "@vaadin/board": "23.0.2",
-    "@vaadin/text-field": "23.0.2",
-    "@vaadin/upload": "23.0.2",
-    "@vaadin/charts": "23.0.2",
-    "@vaadin/cookie-consent": "23.0.2",
-    "@vaadin/vertical-layout": "23.0.2",
-    "@vaadin/crud": "23.0.2",
-    "@vaadin/virtual-list": "23.0.2",
-    "@vaadin/confirm-dialog": "23.0.2",
-    "@vaadin/rich-text-editor": "23.0.2",
-    "@vaadin/input-container": "23.0.2",
-    "@vaadin/vaadin-lumo-styles": "23.0.2",
-    "@vaadin/component-base": "23.0.2",
-    "@vaadin/vaadin-themable-mixin": "23.0.2",
-    "@vaadin/field-base": "23.0.2",
-    "@vaadin/vaadin-list-mixin": "23.0.2",
+    "@vaadin/checkbox": "23.0.3",
+    "@vaadin/context-menu": "23.0.3",
+    "@vaadin/custom-field": "23.0.3",
+    "@vaadin/date-time-picker": "23.0.3",
+    "@vaadin/email-field": "23.0.3",
+    "@vaadin/date-picker": "23.0.3",
+    "@vaadin/dialog": "23.0.3",
+    "@vaadin/details": "23.0.3",
+    "@vaadin/integer-field": "23.0.3",
+    "@vaadin/icons": "23.0.3",
+    "@vaadin/item": "23.0.3",
+    "@vaadin/icon": "23.0.3",
+    "@vaadin/list-box": "23.0.3",
+    "@vaadin/message-input": "23.0.3",
+    "@vaadin/message-list": "23.0.3",
+    "@vaadin/menu-bar": "23.0.3",
+    "@vaadin/horizontal-layout": "23.0.3",
+    "@vaadin/notification": "23.0.3",
+    "@vaadin/number-field": "23.0.3",
+    "@vaadin/password-field": "23.0.3",
+    "@vaadin/progress-bar": "23.0.3",
+    "@vaadin/split-layout": "23.0.3",
+    "@vaadin/scroller": "23.0.3",
+    "@vaadin/select": "23.0.3",
+    "@vaadin/radio-group": "23.0.3",
+    "@vaadin/text-area": "23.0.3",
+    "@vaadin/text-field": "23.0.3",
+    "@vaadin/vertical-layout": "23.0.3",
+    "@vaadin/time-picker": "23.0.3",
+    "@vaadin/tabs": "23.0.3",
+    "@vaadin/charts": "23.0.3",
+    "@vaadin/virtual-list": "23.0.3",
+    "@vaadin/confirm-dialog": "23.0.3",
+    "@vaadin/board": "23.0.3",
+    "@vaadin/upload": "23.0.3",
+    "@vaadin/rich-text-editor": "23.0.3",
+    "@vaadin/crud": "23.0.3",
+    "@vaadin/field-base": "23.0.3",
+    "@vaadin/cookie-consent": "23.0.3",
+    "@vaadin/vaadin-lumo-styles": "23.0.3",
+    "@vaadin/component-base": "23.0.3",
+    "@vaadin/vaadin-list-mixin": "23.0.3",
+    "@vaadin/vaadin-themable-mixin": "23.0.3",
     "@vaadin/vaadin-development-mode-detector": "2.0.5",
+    "@vaadin/input-container": "23.0.3",
+    "@polymer/iron-icon": "3.0.1",
     "@vaadin/vaadin-usage-statistics": "2.1.2",
+    "@polymer/polymer": "3.4.1",
+    "@polymer/iron-media-query": "3.0.1",
     "@polymer/iron-meta": "3.0.1",
     "@polymer/iron-iconset-svg": "3.0.1",
-    "@polymer/polymer": "3.4.1",
-    "@polymer/iron-icon": "3.0.1",
-    "@polymer/iron-media-query": "3.0.1",
     "@polymer/iron-flex-layout": "3.0.1",
     "@vaadin/vaadin-license-checker": "2.1.2",
-    "@vaadin/vaadin-overlay": "23.0.2",
-    "@vaadin/vaadin-context-menu": "23.0.2",
+    "@vaadin/vaadin-overlay": "23.0.3",
+    "@vaadin/vaadin-context-menu": "23.0.3",
     "@webcomponents/shadycss": "1.11.0"
   },
   "peerDependenciesMeta": {
-    "lit": {
-      "optional": true
-    },
-    "@vaadin/grid": {
-      "optional": true
-    },
-    "@vaadin/form-layout": {
-      "optional": true
-    },
-    "@vaadin/login": {
-      "optional": true
-    },
-    "@vaadin/grid-pro": {
-      "optional": true
-    },
-    "@vaadin/app-layout": {
+    "lit-element": {
       "optional": true
     },
     "lit-html": {
       "optional": true
     },
-    "@lit/reactive-element": {
+    "lit": {
       "optional": true
     },
-    "lit-element": {
+    "@vaadin/app-layout": {
+      "optional": true
+    },
+    "@vaadin/grid": {
+      "optional": true
+    },
+    "@vaadin/login": {
+      "optional": true
+    },
+    "@vaadin/form-layout": {
+      "optional": true
+    },
+    "@vaadin/grid-pro": {
+      "optional": true
+    },
+    "@lit/reactive-element": {
       "optional": true
     },
     "cookieconsent": {
       "optional": true
     },
-    "highcharts": {
-      "optional": true
-    },
     "@vaadin/accordion": {
-      "optional": true
-    },
-    "@vaadin/avatar-group": {
       "optional": true
     },
     "@vaadin/button": {
       "optional": true
     },
-    "@vaadin/checkbox": {
+    "@vaadin/avatar-group": {
       "optional": true
     },
     "@vaadin/checkbox-group": {
-      "optional": true
-    },
-    "@vaadin/context-menu": {
       "optional": true
     },
     "@vaadin/avatar": {
@@ -250,7 +241,13 @@
     "@vaadin/combo-box": {
       "optional": true
     },
-    "@vaadin/date-picker": {
+    "highcharts": {
+      "optional": true
+    },
+    "@vaadin/checkbox": {
+      "optional": true
+    },
+    "@vaadin/context-menu": {
       "optional": true
     },
     "@vaadin/custom-field": {
@@ -262,91 +259,82 @@
     "@vaadin/email-field": {
       "optional": true
     },
-    "@vaadin/icon": {
+    "@vaadin/date-picker": {
       "optional": true
     },
     "@vaadin/dialog": {
       "optional": true
     },
-    "@vaadin/item": {
-      "optional": true
-    },
     "@vaadin/details": {
-      "optional": true
-    },
-    "@vaadin/menu-bar": {
       "optional": true
     },
     "@vaadin/integer-field": {
       "optional": true
     },
-    "@vaadin/message-input": {
+    "@vaadin/icons": {
+      "optional": true
+    },
+    "@vaadin/item": {
+      "optional": true
+    },
+    "@vaadin/icon": {
       "optional": true
     },
     "@vaadin/list-box": {
       "optional": true
     },
-    "@vaadin/progress-bar": {
-      "optional": true
-    },
-    "@vaadin/horizontal-layout": {
+    "@vaadin/message-input": {
       "optional": true
     },
     "@vaadin/message-list": {
       "optional": true
     },
-    "@vaadin/password-field": {
+    "@vaadin/menu-bar": {
+      "optional": true
+    },
+    "@vaadin/horizontal-layout": {
       "optional": true
     },
     "@vaadin/notification": {
       "optional": true
     },
-    "@vaadin/select": {
+    "@vaadin/number-field": {
       "optional": true
     },
-    "@vaadin/scroller": {
+    "@vaadin/password-field": {
       "optional": true
     },
-    "@vaadin/icons": {
-      "optional": true
-    },
-    "@vaadin/text-area": {
-      "optional": true
-    },
-    "@vaadin/tabs": {
-      "optional": true
-    },
-    "@vaadin/time-picker": {
-      "optional": true
-    },
-    "@vaadin/radio-group": {
+    "@vaadin/progress-bar": {
       "optional": true
     },
     "@vaadin/split-layout": {
       "optional": true
     },
-    "@vaadin/number-field": {
+    "@vaadin/scroller": {
       "optional": true
     },
-    "@vaadin/board": {
+    "@vaadin/select": {
+      "optional": true
+    },
+    "@vaadin/radio-group": {
+      "optional": true
+    },
+    "@vaadin/text-area": {
       "optional": true
     },
     "@vaadin/text-field": {
       "optional": true
     },
-    "@vaadin/upload": {
-      "optional": true
-    },
-    "@vaadin/charts": {
-      "optional": true
-    },
-    "@vaadin/cookie-consent": {
-      "optional": true
-    },
     "@vaadin/vertical-layout": {
       "optional": true
     },
-    "@vaadin/crud": {
+    "@vaadin/time-picker": {
+      "optional": true
+    },
+    "@vaadin/tabs": {
+      "optional": true
+    },
+    "@vaadin/charts": {
       "optional": true
     },
     "@vaadin/virtual-list": {
@@ -355,10 +343,22 @@
     "@vaadin/confirm-dialog": {
       "optional": true
     },
+    "@vaadin/board": {
+      "optional": true
+    },
+    "@vaadin/upload": {
+      "optional": true
+    },
     "@vaadin/rich-text-editor": {
       "optional": true
     },
-    "@vaadin/input-container": {
+    "@vaadin/crud": {
+      "optional": true
+    },
+    "@vaadin/field-base": {
+      "optional": true
+    },
+    "@vaadin/cookie-consent": {
       "optional": true
     },
     "@vaadin/vaadin-lumo-styles": {
@@ -367,34 +367,34 @@
     "@vaadin/component-base": {
       "optional": true
     },
-    "@vaadin/vaadin-themable-mixin": {
-      "optional": true
-    },
-    "@vaadin/field-base": {
-      "optional": true
-    },
     "@vaadin/vaadin-list-mixin": {
+      "optional": true
+    },
+    "@vaadin/vaadin-themable-mixin": {
       "optional": true
     },
     "@vaadin/vaadin-development-mode-detector": {
       "optional": true
     },
+    "@vaadin/input-container": {
+      "optional": true
+    },
+    "@polymer/iron-icon": {
+      "optional": true
+    },
     "@vaadin/vaadin-usage-statistics": {
+      "optional": true
+    },
+    "@polymer/polymer": {
+      "optional": true
+    },
+    "@polymer/iron-media-query": {
       "optional": true
     },
     "@polymer/iron-meta": {
       "optional": true
     },
     "@polymer/iron-iconset-svg": {
-      "optional": true
-    },
-    "@polymer/polymer": {
-      "optional": true
-    },
-    "@polymer/iron-icon": {
-      "optional": true
-    },
-    "@polymer/iron-media-query": {
       "optional": true
     },
     "@polymer/iron-flex-layout": {
