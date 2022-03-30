@@ -59,5 +59,20 @@ describe('vaadin.js', () => {
         expect((error as Error).message).to.contain('does not exist in container');
       }
     });
+
+    it('shoud not contain lit libraries', async () => {
+      let promises = await Promise.allSettled([
+        'lit-html',
+        'lit-element',
+        '@lit/reactive-element'
+      ].map(specifier => get(`./node_modules/${specifier}`)));
+      expect(promises).to.have.lengthOf(3);
+      for (const promise of promises) {
+        expect(promise.status).to.equal('rejected');
+        const error = (promise as PromiseRejectedResult).reason;
+        expect(error).to.be.instanceOf(Error);
+        expect((error as Error).message).to.contain('does not exist in container');
+      }
+    });
   });
 });

@@ -118,181 +118,202 @@
     "webpack-cli": "^4.9.2"
   },
   "peerDependencies": {
-    "lit-element": "3.2.0",
-    "lit-html": "2.2.1",
-    "lit": "2.1.4",
-    "@vaadin/app-layout": "23.0.3",
-    "@vaadin/grid": "23.0.3",
-    "@vaadin/login": "23.0.3",
-    "@vaadin/form-layout": "23.0.3",
-    "@vaadin/grid-pro": "23.0.3",
-    "@lit/reactive-element": "1.3.1",
-    "cookieconsent": "3.1.1",
+    "@polymer/iron-flex-layout": "3.0.1",
+    "@polymer/iron-icon": "3.0.1",
+    "@polymer/iron-iconset-svg": "3.0.1",
+    "@polymer/iron-media-query": "3.0.1",
+    "@polymer/iron-meta": "3.0.1",
+    "@polymer/polymer": "3.4.1",
     "@vaadin/accordion": "23.0.3",
-    "@vaadin/button": "23.0.3",
-    "@vaadin/avatar-group": "23.0.3",
-    "@vaadin/checkbox-group": "23.0.3",
+    "@vaadin/app-layout": "23.0.3",
     "@vaadin/avatar": "23.0.3",
-    "@vaadin/combo-box": "23.0.3",
-    "highcharts": "9.2.2",
+    "@vaadin/avatar-group": "23.0.3",
+    "@vaadin/board": "23.0.3",
+    "@vaadin/button": "23.0.3",
+    "@vaadin/charts": "23.0.3",
     "@vaadin/checkbox": "23.0.3",
+    "@vaadin/checkbox-group": "23.0.3",
+    "@vaadin/combo-box": "23.0.3",
+    "@vaadin/component-base": "23.0.3",
+    "@vaadin/confirm-dialog": "23.0.3",
     "@vaadin/context-menu": "23.0.3",
+    "@vaadin/cookie-consent": "23.0.3",
+    "@vaadin/crud": "23.0.3",
     "@vaadin/custom-field": "23.0.3",
-    "@vaadin/date-time-picker": "23.0.3",
-    "@vaadin/email-field": "23.0.3",
     "@vaadin/date-picker": "23.0.3",
-    "@vaadin/dialog": "23.0.3",
+    "@vaadin/date-time-picker": "23.0.3",
     "@vaadin/details": "23.0.3",
-    "@vaadin/integer-field": "23.0.3",
-    "@vaadin/icons": "23.0.3",
-    "@vaadin/item": "23.0.3",
+    "@vaadin/dialog": "23.0.3",
+    "@vaadin/email-field": "23.0.3",
+    "@vaadin/field-base": "23.0.3",
+    "@vaadin/form-layout": "23.0.3",
+    "@vaadin/grid": "23.0.3",
+    "@vaadin/grid-pro": "23.0.3",
+    "@vaadin/horizontal-layout": "23.0.3",
     "@vaadin/icon": "23.0.3",
+    "@vaadin/icons": "23.0.3",
+    "@vaadin/input-container": "23.0.3",
+    "@vaadin/integer-field": "23.0.3",
+    "@vaadin/item": "23.0.3",
     "@vaadin/list-box": "23.0.3",
+    "@vaadin/login": "23.0.3",
+    "@vaadin/menu-bar": "23.0.3",
     "@vaadin/message-input": "23.0.3",
     "@vaadin/message-list": "23.0.3",
-    "@vaadin/menu-bar": "23.0.3",
-    "@vaadin/horizontal-layout": "23.0.3",
     "@vaadin/notification": "23.0.3",
     "@vaadin/number-field": "23.0.3",
     "@vaadin/password-field": "23.0.3",
     "@vaadin/progress-bar": "23.0.3",
-    "@vaadin/split-layout": "23.0.3",
+    "@vaadin/radio-group": "23.0.3",
+    "@vaadin/rich-text-editor": "23.0.3",
     "@vaadin/scroller": "23.0.3",
     "@vaadin/select": "23.0.3",
-    "@vaadin/radio-group": "23.0.3",
+    "@vaadin/split-layout": "23.0.3",
+    "@vaadin/tabs": "23.0.3",
     "@vaadin/text-area": "23.0.3",
     "@vaadin/text-field": "23.0.3",
-    "@vaadin/vertical-layout": "23.0.3",
     "@vaadin/time-picker": "23.0.3",
-    "@vaadin/tabs": "23.0.3",
-    "@vaadin/charts": "23.0.3",
-    "@vaadin/virtual-list": "23.0.3",
-    "@vaadin/confirm-dialog": "23.0.3",
-    "@vaadin/board": "23.0.3",
     "@vaadin/upload": "23.0.3",
-    "@vaadin/rich-text-editor": "23.0.3",
-    "@vaadin/crud": "23.0.3",
-    "@vaadin/field-base": "23.0.3",
-    "@vaadin/cookie-consent": "23.0.3",
-    "@vaadin/vaadin-lumo-styles": "23.0.3",
-    "@vaadin/component-base": "23.0.3",
-    "@vaadin/vaadin-list-mixin": "23.0.3",
-    "@vaadin/vaadin-themable-mixin": "23.0.3",
-    "@vaadin/vaadin-development-mode-detector": "2.0.5",
-    "@vaadin/input-container": "23.0.3",
-    "@polymer/iron-icon": "3.0.1",
-    "@vaadin/vaadin-usage-statistics": "2.1.2",
-    "@polymer/polymer": "3.4.1",
-    "@polymer/iron-media-query": "3.0.1",
-    "@polymer/iron-meta": "3.0.1",
-    "@polymer/iron-iconset-svg": "3.0.1",
-    "@polymer/iron-flex-layout": "3.0.1",
-    "@vaadin/vaadin-license-checker": "2.1.2",
-    "@vaadin/vaadin-overlay": "23.0.3",
     "@vaadin/vaadin-context-menu": "23.0.3",
-    "@webcomponents/shadycss": "1.11.0"
+    "@vaadin/vaadin-development-mode-detector": "2.0.5",
+    "@vaadin/vaadin-license-checker": "2.1.2",
+    "@vaadin/vaadin-list-mixin": "23.0.3",
+    "@vaadin/vaadin-lumo-styles": "23.0.3",
+    "@vaadin/vaadin-overlay": "23.0.3",
+    "@vaadin/vaadin-themable-mixin": "23.0.3",
+    "@vaadin/vaadin-usage-statistics": "2.1.2",
+    "@vaadin/vertical-layout": "23.0.3",
+    "@vaadin/virtual-list": "23.0.3",
+    "@webcomponents/shadycss": "1.11.0",
+    "cookieconsent": "3.1.1",
+    "highcharts": "9.2.2",
+    "lit": "2.1.4"
   },
   "peerDependenciesMeta": {
-    "lit-element": {
+    "@polymer/iron-flex-layout": {
       "optional": true
     },
-    "lit-html": {
+    "@polymer/iron-icon": {
       "optional": true
     },
-    "lit": {
+    "@polymer/iron-iconset-svg": {
       "optional": true
     },
-    "@vaadin/app-layout": {
+    "@polymer/iron-media-query": {
       "optional": true
     },
-    "@vaadin/grid": {
+    "@polymer/iron-meta": {
       "optional": true
     },
-    "@vaadin/login": {
-      "optional": true
-    },
-    "@vaadin/form-layout": {
-      "optional": true
-    },
-    "@vaadin/grid-pro": {
-      "optional": true
-    },
-    "@lit/reactive-element": {
-      "optional": true
-    },
-    "cookieconsent": {
+    "@polymer/polymer": {
       "optional": true
     },
     "@vaadin/accordion": {
       "optional": true
     },
-    "@vaadin/button": {
-      "optional": true
-    },
-    "@vaadin/avatar-group": {
-      "optional": true
-    },
-    "@vaadin/checkbox-group": {
+    "@vaadin/app-layout": {
       "optional": true
     },
     "@vaadin/avatar": {
       "optional": true
     },
-    "@vaadin/combo-box": {
+    "@vaadin/avatar-group": {
       "optional": true
     },
-    "highcharts": {
+    "@vaadin/board": {
+      "optional": true
+    },
+    "@vaadin/button": {
+      "optional": true
+    },
+    "@vaadin/charts": {
       "optional": true
     },
     "@vaadin/checkbox": {
       "optional": true
     },
+    "@vaadin/checkbox-group": {
+      "optional": true
+    },
+    "@vaadin/combo-box": {
+      "optional": true
+    },
+    "@vaadin/component-base": {
+      "optional": true
+    },
+    "@vaadin/confirm-dialog": {
+      "optional": true
+    },
     "@vaadin/context-menu": {
+      "optional": true
+    },
+    "@vaadin/cookie-consent": {
+      "optional": true
+    },
+    "@vaadin/crud": {
       "optional": true
     },
     "@vaadin/custom-field": {
       "optional": true
     },
-    "@vaadin/date-time-picker": {
-      "optional": true
-    },
-    "@vaadin/email-field": {
-      "optional": true
-    },
     "@vaadin/date-picker": {
       "optional": true
     },
-    "@vaadin/dialog": {
+    "@vaadin/date-time-picker": {
       "optional": true
     },
     "@vaadin/details": {
       "optional": true
     },
-    "@vaadin/integer-field": {
+    "@vaadin/dialog": {
       "optional": true
     },
-    "@vaadin/icons": {
+    "@vaadin/email-field": {
       "optional": true
     },
-    "@vaadin/item": {
+    "@vaadin/field-base": {
+      "optional": true
+    },
+    "@vaadin/form-layout": {
+      "optional": true
+    },
+    "@vaadin/grid": {
+      "optional": true
+    },
+    "@vaadin/grid-pro": {
+      "optional": true
+    },
+    "@vaadin/horizontal-layout": {
       "optional": true
     },
     "@vaadin/icon": {
       "optional": true
     },
+    "@vaadin/icons": {
+      "optional": true
+    },
+    "@vaadin/input-container": {
+      "optional": true
+    },
+    "@vaadin/integer-field": {
+      "optional": true
+    },
+    "@vaadin/item": {
+      "optional": true
+    },
     "@vaadin/list-box": {
+      "optional": true
+    },
+    "@vaadin/login": {
+      "optional": true
+    },
+    "@vaadin/menu-bar": {
       "optional": true
     },
     "@vaadin/message-input": {
       "optional": true
     },
     "@vaadin/message-list": {
-      "optional": true
-    },
-    "@vaadin/menu-bar": {
-      "optional": true
-    },
-    "@vaadin/horizontal-layout": {
       "optional": true
     },
     "@vaadin/notification": {
@@ -307,7 +328,10 @@
     "@vaadin/progress-bar": {
       "optional": true
     },
-    "@vaadin/split-layout": {
+    "@vaadin/radio-group": {
+      "optional": true
+    },
+    "@vaadin/rich-text-editor": {
       "optional": true
     },
     "@vaadin/scroller": {
@@ -316,7 +340,10 @@
     "@vaadin/select": {
       "optional": true
     },
-    "@vaadin/radio-group": {
+    "@vaadin/split-layout": {
+      "optional": true
+    },
+    "@vaadin/tabs": {
       "optional": true
     },
     "@vaadin/text-area": {
@@ -325,91 +352,52 @@
     "@vaadin/text-field": {
       "optional": true
     },
-    "@vaadin/vertical-layout": {
-      "optional": true
-    },
     "@vaadin/time-picker": {
-      "optional": true
-    },
-    "@vaadin/tabs": {
-      "optional": true
-    },
-    "@vaadin/charts": {
-      "optional": true
-    },
-    "@vaadin/virtual-list": {
-      "optional": true
-    },
-    "@vaadin/confirm-dialog": {
-      "optional": true
-    },
-    "@vaadin/board": {
       "optional": true
     },
     "@vaadin/upload": {
       "optional": true
     },
-    "@vaadin/rich-text-editor": {
-      "optional": true
-    },
-    "@vaadin/crud": {
-      "optional": true
-    },
-    "@vaadin/field-base": {
-      "optional": true
-    },
-    "@vaadin/cookie-consent": {
-      "optional": true
-    },
-    "@vaadin/vaadin-lumo-styles": {
-      "optional": true
-    },
-    "@vaadin/component-base": {
-      "optional": true
-    },
-    "@vaadin/vaadin-list-mixin": {
-      "optional": true
-    },
-    "@vaadin/vaadin-themable-mixin": {
+    "@vaadin/vaadin-context-menu": {
       "optional": true
     },
     "@vaadin/vaadin-development-mode-detector": {
       "optional": true
     },
-    "@vaadin/input-container": {
-      "optional": true
-    },
-    "@polymer/iron-icon": {
-      "optional": true
-    },
-    "@vaadin/vaadin-usage-statistics": {
-      "optional": true
-    },
-    "@polymer/polymer": {
-      "optional": true
-    },
-    "@polymer/iron-media-query": {
-      "optional": true
-    },
-    "@polymer/iron-meta": {
-      "optional": true
-    },
-    "@polymer/iron-iconset-svg": {
-      "optional": true
-    },
-    "@polymer/iron-flex-layout": {
-      "optional": true
-    },
     "@vaadin/vaadin-license-checker": {
+      "optional": true
+    },
+    "@vaadin/vaadin-list-mixin": {
+      "optional": true
+    },
+    "@vaadin/vaadin-lumo-styles": {
       "optional": true
     },
     "@vaadin/vaadin-overlay": {
       "optional": true
     },
-    "@vaadin/vaadin-context-menu": {
+    "@vaadin/vaadin-themable-mixin": {
+      "optional": true
+    },
+    "@vaadin/vaadin-usage-statistics": {
+      "optional": true
+    },
+    "@vaadin/vertical-layout": {
+      "optional": true
+    },
+    "@vaadin/virtual-list": {
       "optional": true
     },
     "@webcomponents/shadycss": {
+      "optional": true
+    },
+    "cookieconsent": {
+      "optional": true
+    },
+    "highcharts": {
+      "optional": true
+    },
+    "lit": {
       "optional": true
     }
   }

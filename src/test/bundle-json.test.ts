@@ -71,10 +71,19 @@ describe('vaadin-bundle.json', () => {
     expect(polymer.exposes['./polymer-element.js'].exports).to.include('html', 'PolymerElement');
 
     getPackage('highcharts');
+
+    const lit = getPackage('lit');
+    expect(lit.version).to.match(/^2\./);
   });
 
   it('shoud not contain itself', () => {
     expect(() => getPackage('@vaadin/bundles')).to.throw(PackageNotFoundError);
+  });
+
+  it('shoud not contain lit libraries', () => {
+    expect(() => getPackage('lit-html')).to.throw(PackageNotFoundError);
+    expect(() => getPackage('lit-element')).to.throw(PackageNotFoundError);
+    expect(() => getPackage('@lit/reactive-element')).to.throw(PackageNotFoundError);
   });
 
   it('should expose platform pinned @webcomponents/shadycss', () => {
