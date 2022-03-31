@@ -156,8 +156,10 @@ export const bundleInfoRollupPlugin = (
       // update peer dependencies in package.json
       const peerDependencies: Record<string, string> = {};
       const peerDependenciesMeta: Record<string, {optional?: true}> = {};
-      for (const [packageName, packageInfo] of Object.entries(bundleJson.packages)) {
-        peerDependencies[packageName] = packageInfo.version;
+      const packageNames = Object.keys(bundleJson.packages);
+      packageNames.sort();
+      for (const packageName of packageNames) {
+        peerDependencies[packageName] = bundleJson.packages[packageName].version;
         peerDependenciesMeta[packageName] = {optional: true};
       }
       const packageJsonPath = path.resolve(process.cwd(), 'package.json');

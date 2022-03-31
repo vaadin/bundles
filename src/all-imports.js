@@ -75,7 +75,6 @@ import '@vaadin/vaadin-usage-statistics';
 // ignore deprecated import '@vaadin/vaadin-overlay';
 // ignore deprecated import '@vaadin/vaadin-context-menu';
 /* External dependencies */
-// ignore bundle internal import '@lit/reactive-element';
 // ignore non-resolvable import '@polymer/iron-flex-layout';
 import '@polymer/iron-icon';
 import '@polymer/iron-iconset-svg';
@@ -86,6 +85,6 @@ import '@polymer/polymer';
 import 'cookieconsent';
 import 'highcharts';
 import 'lit';
-import 'lit-html';
-import 'lit-element';
-import '@lit/reactive-element';
+// ignore bundle internal import 'lit-html';
+// ignore bundle internal import 'lit-element';
+// ignore bundle internal import '@lit/reactive-element';

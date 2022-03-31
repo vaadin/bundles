@@ -14,5 +14,11 @@ export const exposePackages = {
    * be bundled as dependencies.
    */
   exclude: [
+    // NOTE: Lit libraries are excluded to allow installing and using different
+    // versions (possibly older versions installed by addons) simultaniously.
+    // See: https://github.com/vaadin/flow-components/issues/2950
+    'lit-html',
+    'lit-element',
+    '@lit/reactive-element'
   ]
 };
