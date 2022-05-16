@@ -182,6 +182,7 @@
     "@vaadin/vaadin-license-checker": "2.1.2",
     "@vaadin/vaadin-list-mixin": "23.0.8",
     "@vaadin/vaadin-lumo-styles": "23.0.8",
+    "@vaadin/vaadin-overlay": "23.0.8",
     "@vaadin/vaadin-themable-mixin": "23.0.8",
     "@vaadin/vaadin-usage-statistics": "2.1.2",
     "@vaadin/vertical-layout": "23.0.8",
