@@ -62,7 +62,6 @@ export const vaadinWebComponentPackages = [
   '@vaadin/integer-field',
   '@vaadin/item',
   '@vaadin/list-box',
-  '@vaadin/lit-renderer',
   '@vaadin/login',
   '@vaadin/map',
   '@vaadin/menu-bar',
