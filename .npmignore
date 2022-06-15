@@ -1,4 +1,5 @@
 src/
+scripts/
 build.config.ts
 rollup.config.ts
 webpack.config.ts
