@@ -151,6 +151,7 @@
     "@vaadin/dialog": "23.1.0-beta2",
     "@vaadin/email-field": "23.1.0-beta2",
     "@vaadin/field-base": "23.1.0-beta2",
+    "@vaadin/field-highlighter": "23.1.0-beta2",
     "@vaadin/form-layout": "23.1.0-beta2",
     "@vaadin/grid": "23.1.0-beta2",
     "@vaadin/grid-pro": "23.1.0-beta2",
@@ -163,12 +164,14 @@
     "@vaadin/list-box": "23.1.0-beta2",
     "@vaadin/lit-renderer": "23.1.0-beta2",
     "@vaadin/login": "23.1.0-beta2",
+    "@vaadin/map": "23.1.0-beta2",
     "@vaadin/menu-bar": "23.1.0-beta2",
     "@vaadin/message-input": "23.1.0-beta2",
     "@vaadin/message-list": "23.1.0-beta2",
     "@vaadin/notification": "23.1.0-beta2",
     "@vaadin/number-field": "23.1.0-beta2",
     "@vaadin/password-field": "23.1.0-beta2",
+    "@vaadin/polymer-legacy-adapter": "23.1.0-beta2",
     "@vaadin/progress-bar": "23.1.0-beta2",
     "@vaadin/radio-group": "23.1.0-beta2",
     "@vaadin/rich-text-editor": "23.1.0-beta2",
@@ -193,7 +196,10 @@
     "@webcomponents/shadycss": "1.11.0",
     "cookieconsent": "3.1.1",
     "highcharts": "9.2.2",
-    "lit": "2.2.3"
+    "lit": "2.2.3",
+    "ol": "6.13.0",
+    "quickselect": "2.0.0",
+    "rbush": "3.0.1"
   },
   "peerDependenciesMeta": {
     "@polymer/iron-flex-layout": {
@@ -280,6 +286,9 @@
     "@vaadin/field-base": {
       "optional": true
     },
+    "@vaadin/field-highlighter": {
+      "optional": true
+    },
     "@vaadin/form-layout": {
       "optional": true
     },
@@ -316,6 +325,9 @@
     "@vaadin/login": {
       "optional": true
     },
+    "@vaadin/map": {
+      "optional": true
+    },
     "@vaadin/menu-bar": {
       "optional": true
     },
@@ -332,6 +344,9 @@
       "optional": true
     },
     "@vaadin/password-field": {
+      "optional": true
+    },
+    "@vaadin/polymer-legacy-adapter": {
       "optional": true
     },
     "@vaadin/progress-bar": {
@@ -407,6 +422,15 @@
       "optional": true
     },
     "lit": {
+      "optional": true
+    },
+    "ol": {
+      "optional": true
+    },
+    "quickselect": {
+      "optional": true
+    },
+    "rbush": {
       "optional": true
     }
   }
