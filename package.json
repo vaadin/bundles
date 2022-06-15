@@ -13,7 +13,8 @@
     "test": "mocha 'src/test/**/*.ts'",
     "prepack": "npm run clean",
     "prepare": "npm run build",
-    "postpack": "npm run test"
+    "postpack": "npm run test",
+    "version": "node --loader ts-node/esm scripts/version.ts"
   },
   "type": "module",
   "main": "vaadin.js",

@@ -20,5 +20,84 @@ export const exposePackages = {
     'lit-html',
     'lit-element',
     '@lit/reactive-element'
-  ]
+  ],
 };
+
+/**
+ * The versions of listed packages are automatically updated in the
+ * `package.json` file in sync with the version of the bundles package.
+ * See the `npm version` script.
+ */
+export const vaadinWebComponentPackages = [
+  '@vaadin/accordion',
+  '@vaadin/app-layout',
+  '@vaadin/avatar-group',
+  '@vaadin/avatar',
+  '@vaadin/board',
+  '@vaadin/button',
+  '@vaadin/charts',
+  '@vaadin/checkbox-group',
+  '@vaadin/checkbox',
+  '@vaadin/combo-box',
+  '@vaadin/component-base',
+  '@vaadin/confirm-dialog',
+  '@vaadin/context-menu',
+  '@vaadin/cookie-consent',
+  '@vaadin/crud',
+  '@vaadin/custom-field',
+  '@vaadin/date-picker',
+  '@vaadin/date-time-picker',
+  '@vaadin/details',
+  '@vaadin/dialog',
+  '@vaadin/email-field',
+  '@vaadin/field-base',
+  '@vaadin/field-highlighter',
+  '@vaadin/form-layout',
+  '@vaadin/grid-pro',
+  '@vaadin/grid',
+  '@vaadin/horizontal-layout',
+  '@vaadin/icon',
+  '@vaadin/icons',
+  '@vaadin/input-container',
+  '@vaadin/integer-field',
+  '@vaadin/item',
+  '@vaadin/list-box',
+  '@vaadin/lit-renderer',
+  '@vaadin/login',
+  '@vaadin/map',
+  '@vaadin/menu-bar',
+  '@vaadin/message-input',
+  '@vaadin/message-list',
+  '@vaadin/notification',
+  '@vaadin/number-field',
+  '@vaadin/password-field',
+  '@vaadin/polymer-legacy-adapter',
+  '@vaadin/progress-bar',
+  '@vaadin/radio-group',
+  '@vaadin/rich-text-editor',
+  '@vaadin/scroller',
+  '@vaadin/select',
+  '@vaadin/split-layout',
+  '@vaadin/tabs',
+  '@vaadin/text-area',
+  '@vaadin/text-field',
+  '@vaadin/time-picker',
+  '@vaadin/upload',
+  '@vaadin/vaadin-context-menu',
+  '@vaadin/vaadin-lumo-styles',
+  '@vaadin/vaadin-list-mixin',
+  '@vaadin/vaadin-overlay',
+  '@vaadin/vaadin-themable-mixin',
+  '@vaadin/virtual-list',
+  '@vaadin/vertical-layout',
+];
+
+/**
+ * The listed packages are automatically updated to the newest matching
+ * version for every new version of bundles. See the `npm version` script.
+ */
+export const autoUpdatePackages = [
+  'lit-html',
+  'lit-element',
+  '@lit/reactive-element',
+];
