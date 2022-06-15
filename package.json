@@ -150,6 +150,7 @@
     "@vaadin/dialog": "23.0.11",
     "@vaadin/email-field": "23.0.11",
     "@vaadin/field-base": "23.0.11",
+    "@vaadin/field-highlighter": "23.0.11",
     "@vaadin/form-layout": "23.0.11",
     "@vaadin/grid": "23.0.11",
     "@vaadin/grid-pro": "23.0.11",
@@ -161,12 +162,14 @@
     "@vaadin/item": "23.0.11",
     "@vaadin/list-box": "23.0.11",
     "@vaadin/login": "23.0.11",
+    "@vaadin/map": "23.0.11",
     "@vaadin/menu-bar": "23.0.11",
     "@vaadin/message-input": "23.0.11",
     "@vaadin/message-list": "23.0.11",
     "@vaadin/notification": "23.0.11",
     "@vaadin/number-field": "23.0.11",
     "@vaadin/password-field": "23.0.11",
+    "@vaadin/polymer-legacy-adapter": "23.0.11",
     "@vaadin/progress-bar": "23.0.11",
     "@vaadin/radio-group": "23.0.11",
     "@vaadin/rich-text-editor": "23.0.11",
@@ -191,7 +194,10 @@
     "@webcomponents/shadycss": "1.11.0",
     "cookieconsent": "3.1.1",
     "highcharts": "9.2.2",
-    "lit": "2.1.4"
+    "lit": "2.1.4",
+    "ol": "6.13.0",
+    "quickselect": "2.0.0",
+    "rbush": "3.0.1"
   },
   "peerDependenciesMeta": {
     "@polymer/iron-flex-layout": {
@@ -278,6 +284,9 @@
     "@vaadin/field-base": {
       "optional": true
     },
+    "@vaadin/field-highlighter": {
+      "optional": true
+    },
     "@vaadin/form-layout": {
       "optional": true
     },
@@ -311,6 +320,9 @@
     "@vaadin/login": {
       "optional": true
     },
+    "@vaadin/map": {
+      "optional": true
+    },
     "@vaadin/menu-bar": {
       "optional": true
     },
@@ -327,6 +339,9 @@
       "optional": true
     },
     "@vaadin/password-field": {
+      "optional": true
+    },
+    "@vaadin/polymer-legacy-adapter": {
       "optional": true
     },
     "@vaadin/progress-bar": {
@@ -402,6 +417,15 @@
       "optional": true
     },
     "lit": {
+      "optional": true
+    },
+    "ol": {
+      "optional": true
+    },
+    "quickselect": {
+      "optional": true
+    },
+    "rbush": {
       "optional": true
     }
   }
