@@ -131,7 +131,7 @@
     "@polymer/iron-iconset-svg": "3.0.1",
     "@polymer/iron-media-query": "3.0.1",
     "@polymer/iron-meta": "3.0.1",
-    "@polymer/polymer": "3.4.1",
+    "@polymer/polymer": "3.5.1",
     "@vaadin/accordion": "23.2.0-alpha3",
     "@vaadin/app-layout": "23.2.0-alpha3",
     "@vaadin/avatar": "23.2.0-alpha3",
@@ -199,7 +199,7 @@
     "@webcomponents/shadycss": "1.11.0",
     "cookieconsent": "3.1.1",
     "highcharts": "9.2.2",
-    "lit": "2.2.3",
+    "lit": "2.2.6",
     "ol": "6.13.0",
     "quickselect": "2.0.0",
     "rbush": "3.0.1"
