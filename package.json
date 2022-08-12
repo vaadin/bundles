@@ -200,8 +200,7 @@
     "lit": "2.2.7",
     "ol": "6.13.0",
     "quickselect": "2.0.0",
-    "rbush": "3.0.1",
-    "@vaadin/vaadin-context-menu": "23.2.0-alpha6"
+    "rbush": "3.0.1"
   },
   "peerDependenciesMeta": {
     "@polymer/iron-flex-layout": {
