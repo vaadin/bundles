@@ -71,7 +71,6 @@ import '@vaadin/grid-pro';
 import '@vaadin/grid-pro/lit.js';
 import '@vaadin/grid-pro/vaadin-grid-pro-edit-column.js';
 import '@vaadin/map';
-import '@vaadin/map/enable.js';
 import '@vaadin/rich-text-editor';
 /* Theme */
 import '@vaadin/vaadin-lumo-styles';
