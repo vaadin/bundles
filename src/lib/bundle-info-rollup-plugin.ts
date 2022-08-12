@@ -36,6 +36,10 @@ export const bundleInfoRollupPlugin = (
         ...options
       });
 
+      if (!resolution) {
+        throw new Error(`Unable to resolve import of "${source}" in ${importer.replace(process.cwd(), '.')}`);
+      }
+
       const id = source.startsWith('.') ? resolution.id : source;
       if (!resolution.id.startsWith(modulesDirectory)) {
         return null;
