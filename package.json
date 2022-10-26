@@ -1,6 +1,6 @@
 {
   "name": "@vaadin/bundles",
-  "version": "23.3.0-alpha3",
+  "version": "24.0.0-alpha1",
   "publishConfig": {
     "access": "public"
   },
@@ -100,7 +100,7 @@
     "@vaadin/select": "24.0.0-alpha1",
     "@vaadin/split-layout": "24.0.0-alpha1",
     "@vaadin/tabs": "24.0.0-alpha1",
-    "@vaadin/tabsheet": "^24.0.0-alpha1",
+    "@vaadin/tabsheet": "24.0.0-alpha1",
     "@vaadin/text-area": "24.0.0-alpha1",
     "@vaadin/text-field": "24.0.0-alpha1",
     "@vaadin/time-picker": "24.0.0-alpha1",
@@ -123,7 +123,8 @@
     "tslib": "*",
     "typescript": "^4.5.5",
     "webpack": "^5.68.0",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "@vaadin/tooltip": "24.0.0-alpha1"
   },
   "peerDependencies": {
     "@polymer/iron-flex-layout": "3.0.1",
@@ -201,7 +202,8 @@
     "lit": "2.3.0",
     "ol": "6.13.0",
     "quickselect": "2.0.0",
-    "rbush": "3.0.1"
+    "rbush": "3.0.1",
+    "@vaadin/tabsheet": "24.0.0-alpha1"
   },
   "peerDependenciesMeta": {
     "@polymer/iron-flex-layout": {

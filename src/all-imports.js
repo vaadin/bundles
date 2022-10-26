@@ -102,6 +102,7 @@ import 'quickselect';
 // ignore bundle internal import 'lit-html';
 // ignore bundle internal import 'lit-element';
 // ignore bundle internal import '@lit/reactive-element';
+
 import 'lit';
 import 'lit/async-directive.js';
 import 'lit/decorators.js';
