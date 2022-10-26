@@ -45,6 +45,7 @@ import '@vaadin/message-list';
 import '@vaadin/notification';
 import '@vaadin/notification/lit.js';
 import '@vaadin/number-field';
+import '@vaadin/overlay';
 import '@vaadin/password-field';
 import '@vaadin/polymer-legacy-adapter';
 import '@vaadin/progress-bar';
@@ -54,6 +55,7 @@ import '@vaadin/select';
 import '@vaadin/select/lit.js';
 import '@vaadin/split-layout';
 import '@vaadin/tabs';
+import '@vaadin/tabsheet';
 import '@vaadin/text-area';
 import '@vaadin/text-field';
 import '@vaadin/time-picker';
@@ -84,9 +86,6 @@ import '@vaadin/vaadin-list-mixin';
 import '@vaadin/vaadin-themable-mixin';
 import '@vaadin/vaadin-development-mode-detector';
 import '@vaadin/vaadin-usage-statistics';
-// FIXME: make components not depend on those
-// ignore deprecated import '@vaadin/vaadin-overlay';
-// ignore deprecated import '@vaadin/vaadin-context-menu';
 /* External dependencies */
 // ignore non-resolvable import '@polymer/iron-flex-layout';
 import '@polymer/iron-icon';
