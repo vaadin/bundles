@@ -68,6 +68,7 @@ export const vaadinWebComponentPackages = [
   '@vaadin/menu-bar',
   '@vaadin/message-input',
   '@vaadin/message-list',
+  '@vaadin/multi-select-combo-box',
   '@vaadin/notification',
   '@vaadin/number-field',
   '@vaadin/overlay',
