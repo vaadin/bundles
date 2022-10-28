@@ -42,6 +42,8 @@ import '@vaadin/login/vaadin-login-form.js';
 import '@vaadin/menu-bar';
 import '@vaadin/message-input';
 import '@vaadin/message-list';
+import '@vaadin/multi-select-combo-box';
+import '@vaadin/multi-select-combo-box/lit.js';
 import '@vaadin/notification';
 import '@vaadin/notification/lit.js';
 import '@vaadin/number-field';
