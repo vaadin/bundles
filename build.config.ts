@@ -84,7 +84,6 @@ export const vaadinWebComponentPackages = [
   '@vaadin/text-field',
   '@vaadin/time-picker',
   '@vaadin/upload',
-  '@vaadin/vaadin-context-menu',
   '@vaadin/vaadin-lumo-styles',
   '@vaadin/vaadin-list-mixin',
   '@vaadin/vaadin-overlay',

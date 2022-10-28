@@ -87,7 +87,6 @@ import '@vaadin/vaadin-development-mode-detector';
 import '@vaadin/vaadin-usage-statistics';
 // FIXME: make components not depend on those
 // ignore deprecated import '@vaadin/vaadin-overlay';
-// ignore deprecated import '@vaadin/vaadin-context-menu';
 /* External dependencies */
 // ignore non-resolvable import '@polymer/iron-flex-layout';
 import '@polymer/iron-icon';
