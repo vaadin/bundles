@@ -38,10 +38,6 @@
   "homepage": "https://github.com/vaadin/platform#readme",
   "devDependencies": {
     "@lit/reactive-element": "./src/fake-modules/@lit/reactive-element",
-    "@polymer/iron-icon": "3.0.1",
-    "@polymer/iron-iconset-svg": "3.0.1",
-    "@polymer/iron-media-query": "3.0.1",
-    "@polymer/iron-meta": "3.0.1",
     "@polymer/polymer": "3.5.1",
     "@rollup/plugin-node-resolve": "^13.1.3",
     "@rollup/plugin-typescript": "^8.3.0",
@@ -128,11 +124,6 @@
     "webpack-cli": "^4.9.2"
   },
   "peerDependencies": {
-    "@polymer/iron-flex-layout": "3.0.1",
-    "@polymer/iron-icon": "3.0.1",
-    "@polymer/iron-iconset-svg": "3.0.1",
-    "@polymer/iron-media-query": "3.0.1",
-    "@polymer/iron-meta": "3.0.1",
     "@polymer/polymer": "3.5.1",
     "@vaadin/accordion": "24.0.0-alpha1",
     "@vaadin/app-layout": "24.0.0-alpha1",
@@ -199,7 +190,6 @@
     "@vaadin/vaadin-usage-statistics": "2.1.2",
     "@vaadin/vertical-layout": "24.0.0-alpha1",
     "@vaadin/virtual-list": "24.0.0-alpha1",
-    "@webcomponents/shadycss": "1.11.0",
     "cookieconsent": "3.1.1",
     "highcharts": "9.2.2",
     "lit": "2.3.0",
@@ -208,21 +198,6 @@
     "rbush": "3.0.1"
   },
   "peerDependenciesMeta": {
-    "@polymer/iron-flex-layout": {
-      "optional": true
-    },
-    "@polymer/iron-icon": {
-      "optional": true
-    },
-    "@polymer/iron-iconset-svg": {
-      "optional": true
-    },
-    "@polymer/iron-media-query": {
-      "optional": true
-    },
-    "@polymer/iron-meta": {
-      "optional": true
-    },
     "@polymer/polymer": {
       "optional": true
     },
@@ -419,9 +394,6 @@
       "optional": true
     },
     "@vaadin/virtual-list": {
-      "optional": true
-    },
-    "@webcomponents/shadycss": {
       "optional": true
     },
     "cookieconsent": {
