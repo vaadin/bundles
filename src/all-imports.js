@@ -89,11 +89,6 @@ import '@vaadin/vaadin-themable-mixin';
 import '@vaadin/vaadin-development-mode-detector';
 import '@vaadin/vaadin-usage-statistics';
 /* External dependencies */
-// ignore non-resolvable import '@polymer/iron-flex-layout';
-import '@polymer/iron-icon';
-import '@polymer/iron-iconset-svg';
-import '@polymer/iron-media-query';
-import '@polymer/iron-meta';
 import '@polymer/polymer';
 // ignore non-resolvable import '@webcomponents/shadycss';
 import 'cookieconsent';
