@@ -100,4 +100,5 @@ export const autoUpdatePackages = [
   'lit-html',
   'lit-element',
   '@lit/reactive-element',
+  '@webcomponents/shadycss',
 ];
