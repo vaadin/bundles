@@ -415,9 +415,6 @@
     "@vaadin/virtual-list": {
       "optional": true
     },
-    "@webcomponents/shadycss": {
-      "optional": true
-    },
     "cookieconsent": {
       "optional": true
     },
