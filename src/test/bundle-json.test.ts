@@ -124,6 +124,6 @@ Please add import or ignore line(s) for these.`);
   });
 
   it('should not pin auto-update packages', async () => {
-    expect(packageJson.devDependencies["@webcomponents/shadycss"].version).to.equal("^1.9.1");
+    expect(packageJson.devDependencies["@webcomponents/shadycss"]).to.equal("^1.9.1");
   });
 });
