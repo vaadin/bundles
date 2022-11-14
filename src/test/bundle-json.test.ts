@@ -1,8 +1,9 @@
 import { expect } from 'chai';
 import { readFile } from 'fs/promises';
 import { describe, it } from 'mocha';
-import { BundleJson } from '../lib/bundle-json';
-import { PackageInfo } from '../lib/package-info';
+import { autoUpdatePackages } from '../../build.config.js';
+import { BundleJson } from '../lib/bundle-json.js';
+import { PackageInfo } from '../lib/package-info.js';
 
 describe('vaadin-bundle.json', () => {
   let bundleJson: BundleJson;
@@ -114,6 +115,9 @@ Please add import or ignore line(s) for these.`);
     expect(packageJson).to.have.property('peerDependenciesMeta').that.is.an('object');
     const peerDependenciesMeta = packageJson.peerDependenciesMeta as Record<string, {optional?: boolean}>;
     for (const [packageName, packageInfo] of Object.entries(bundleJson.packages)) {
+      if (autoUpdatePackages.includes(packageName)) {
+        continue;
+      }
       expect(peerDependencies).to.have.property(packageName, packageInfo.version);
       expect(peerDependenciesMeta).to.have.deep.property(packageName, {optional: true});
     }
