@@ -1,8 +1,9 @@
 import { expect } from 'chai';
 import { readFile } from 'fs/promises';
 import { describe, it } from 'mocha';
-import { BundleJson } from '../lib/bundle-json';
-import { PackageInfo } from '../lib/package-info';
+import { autoUpdatePackages } from '../../build.config.js';
+import { BundleJson } from '../lib/bundle-json.js';
+import { PackageInfo } from '../lib/package-info.js';
 
 describe('vaadin-bundle.json', () => {
   let bundleJson: BundleJson;
@@ -89,10 +90,6 @@ describe('vaadin-bundle.json', () => {
     expect(() => getPackage('@lit/reactive-element')).to.throw(PackageNotFoundError);
   });
 
-  it('should expose platform pinned @webcomponents/shadycss', () => {
-    expect(getPackage('@webcomponents/shadycss').version).to.equal("1.11.0");
-  });
-
   it('should list all packages in all-imports', async () => {
     const packageNames = Object.keys(bundleJson.packages);
     const allImportsSource = await readFile('src/all-imports.js', { encoding: 'utf8' });
@@ -118,8 +115,15 @@ Please add import or ignore line(s) for these.`);
     expect(packageJson).to.have.property('peerDependenciesMeta').that.is.an('object');
     const peerDependenciesMeta = packageJson.peerDependenciesMeta as Record<string, {optional?: boolean}>;
     for (const [packageName, packageInfo] of Object.entries(bundleJson.packages)) {
+      if (autoUpdatePackages.includes(packageName)) {
+        continue;
+      }
       expect(peerDependencies).to.have.property(packageName, packageInfo.version);
       expect(peerDependenciesMeta).to.have.deep.property(packageName, {optional: true});
     }
+  });
+
+  it('should not pin auto-update packages', async () => {
+    expect(packageJson.devDependencies["@webcomponents/shadycss"]).to.equal("^1.9.1");
   });
 });

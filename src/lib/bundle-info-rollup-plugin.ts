@@ -5,6 +5,7 @@ import { walk } from 'estree-walker';
 import * as fs from 'fs/promises';
 import { posix as path } from 'path';
 import { Plugin } from 'rollup';
+import { autoUpdatePackages } from '../../build.config';
 import { BundleStore } from './bundle-store';
 
 export const bundleInfoRollupPlugin = (
@@ -159,6 +160,9 @@ export const bundleInfoRollupPlugin = (
       const packageNames = Object.keys(bundleJson.packages);
       packageNames.sort();
       for (const packageName of packageNames) {
+        if (autoUpdatePackages.includes(packageName)) {
+          continue;
+        }
         peerDependencies[packageName] = bundleJson.packages[packageName].version;
         peerDependenciesMeta[packageName] = {optional: true};
       }
