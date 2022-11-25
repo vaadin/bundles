@@ -84,7 +84,6 @@ import '@vaadin/component-base';
 import '@vaadin/field-base';
 import '@vaadin/input-container';
 // ignore non-resolvable import '@vaadin/vaadin-license-checker';
-import '@vaadin/vaadin-list-mixin';
 import '@vaadin/vaadin-themable-mixin';
 import '@vaadin/vaadin-development-mode-detector';
 import '@vaadin/vaadin-usage-statistics';
