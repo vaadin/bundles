@@ -88,7 +88,6 @@ export const vaadinWebComponentPackages = [
   '@vaadin/tooltip',
   '@vaadin/upload',
   '@vaadin/vaadin-lumo-styles',
-  '@vaadin/vaadin-list-mixin',
   '@vaadin/vaadin-themable-mixin',
   '@vaadin/virtual-list',
   '@vaadin/vertical-layout',
