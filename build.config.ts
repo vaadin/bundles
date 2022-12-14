@@ -19,7 +19,10 @@ export const exposePackages = {
     // See: https://github.com/vaadin/flow-components/issues/2950
     'lit-html',
     'lit-element',
-    '@lit/reactive-element'
+    '@lit/reactive-element',
+    // NOTE: ShadyCSS is excluded to allow installing a different version
+    // (for example, older version from package-lock.json during upgrade)
+    '@webcomponents/shadycss',
   ],
 };
 

@@ -90,6 +90,10 @@ describe('vaadin-bundle.json', () => {
     expect(() => getPackage('@lit/reactive-element')).to.throw(PackageNotFoundError);
   });
 
+  it('shoud not contain ShadyCSS', () => {
+    expect(() => getPackage('@webcomponents/shadycss')).to.throw(PackageNotFoundError);
+  });
+
   it('should list all packages in all-imports', async () => {
     const packageNames = Object.keys(bundleJson.packages);
     const allImportsSource = await readFile('src/all-imports.js', { encoding: 'utf8' });
