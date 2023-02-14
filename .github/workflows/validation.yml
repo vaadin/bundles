@@ -3,7 +3,7 @@ name: Validation
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
       - '23.0'
       - '23.1'
       - '23.2'
