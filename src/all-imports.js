@@ -81,6 +81,7 @@ import '@vaadin/rich-text-editor';
 import '@vaadin/vaadin-lumo-styles';
 /* Internal dependencies */
 import '@vaadin/component-base';
+import '@vaadin/a11y-base';
 import '@vaadin/field-base';
 import '@vaadin/input-container';
 // ignore non-resolvable import '@vaadin/vaadin-license-checker';
