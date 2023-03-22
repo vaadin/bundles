@@ -1,0 +1,7 @@
+{
+  "name": "@lit-labs/ssr-dom-shim",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Stub module to force npm deep install for the original"
+}

@@ -19,7 +19,8 @@ export const exposePackages = {
     // See: https://github.com/vaadin/flow-components/issues/2950
     'lit-html',
     'lit-element',
-    '@lit/reactive-element'
+    '@lit/reactive-element',
+    '@lit-labs/ssr-dom-shim',
   ],
 };
 
@@ -101,4 +102,5 @@ export const autoUpdatePackages = [
   'lit-html',
   'lit-element',
   '@lit/reactive-element',
+  '@lit-labs/ssr-dom-shim',
 ];
