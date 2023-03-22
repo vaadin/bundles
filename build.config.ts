@@ -98,7 +98,7 @@ export const vaadinWebComponentPackages = [
  * version for every new version of bundles. See the `npm version` script.
  */
 export const autoUpdatePackages = [
-  'lit-html',
+/*  'lit-html',
   'lit-element',
-  '@lit/reactive-element',
+  '@lit/reactive-element',*/
 ];
