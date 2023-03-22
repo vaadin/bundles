@@ -123,6 +123,7 @@
     "webpack-cli": "^4.9.2"
   },
   "peerDependencies": {
+    "@lit-labs/ssr-dom-shim": "1.1.0",
     "@polymer/polymer": "3.5.1",
     "@vaadin/accordion": "24.0.0",
     "@vaadin/app-layout": "24.0.0",
@@ -196,6 +197,9 @@
     "rbush": "3.0.1"
   },
   "peerDependenciesMeta": {
+    "@lit-labs/ssr-dom-shim": {
+      "optional": true
+    },
     "@polymer/polymer": {
       "optional": true
     },
