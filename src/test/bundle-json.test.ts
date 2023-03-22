@@ -94,6 +94,7 @@ describe('vaadin-bundle.json', () => {
     expect(() => getPackage('lit-html')).to.throw(PackageNotFoundError);
     expect(() => getPackage('lit-element')).to.throw(PackageNotFoundError);
     expect(() => getPackage('@lit/reactive-element')).to.throw(PackageNotFoundError);
+    expect(() => getPackage('@lit-labs/ssr-dom-shim')).to.throw(PackageNotFoundError);
   });
 
   it('should list all packages in all-imports', async () => {
