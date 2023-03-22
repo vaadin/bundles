@@ -123,7 +123,9 @@
     "webpack-cli": "^4.9.2"
   },
   "peerDependencies": {
+    "@lit-labs/ssr-dom-shim": "1.1.0",
     "@polymer/polymer": "3.5.1",
+    "@vaadin/a11y-base": "24.1.0-alpha3",
     "@vaadin/accordion": "24.1.0-alpha3",
     "@vaadin/app-layout": "24.1.0-alpha3",
     "@vaadin/avatar": "24.1.0-alpha3",
@@ -196,7 +198,13 @@
     "rbush": "3.0.1"
   },
   "peerDependenciesMeta": {
+    "@lit-labs/ssr-dom-shim": {
+      "optional": true
+    },
     "@polymer/polymer": {
+      "optional": true
+    },
+    "@vaadin/a11y-base": {
       "optional": true
     },
     "@vaadin/accordion": {
