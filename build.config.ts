@@ -30,6 +30,7 @@ export const exposePackages = {
  * See the `npm version` script.
  */
 export const vaadinWebComponentPackages = [
+  '@vaadin/a11y-base',
   '@vaadin/accordion',
   '@vaadin/app-layout',
   '@vaadin/avatar-group',
