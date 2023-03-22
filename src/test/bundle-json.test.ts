@@ -100,6 +100,9 @@ describe('vaadin-bundle.json', () => {
   it('should list all packages in all-imports', async () => {
     const packageNames = Object.keys(bundleJson.packages);
     const allImportsSource = await readFile('src/all-imports.js', { encoding: 'utf8' });
+
+    console.log("packageNames",packageNames)
+    console.log("allImportsSource",allImportsSource)
     const allImports = allImportsSource
       .split(/(\r|\n|\r\n)/)
       .map((line) => line.replace(/^\/\/ ignore .* import/, 'import'))
