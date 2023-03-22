@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'main'
+      - '24.0'
       - '23.0'
       - '23.1'
       - '23.2'
@@ -13,7 +14,8 @@ on:
       - '.github/ISSUE_TEMPLATE/*'
   pull_request_target:
     branches:
-      - 'master'
+      - 'main'
+      - '24.0'
       - '23.0'
       - '23.1'
       - '23.2'
