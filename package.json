@@ -38,6 +38,7 @@
   "homepage": "https://github.com/vaadin/platform#readme",
   "devDependencies": {
     "@lit/reactive-element": "./src/fake-modules/@lit/reactive-element",
+    "@lit-labs/ssr-dom-shim": "./src/fake-modules/@lit-labs/ssr-dom-shim",
     "@polymer/iron-icon": "3.0.1",
     "@polymer/iron-iconset-svg": "3.0.1",
     "@polymer/iron-media-query": "3.0.1",
