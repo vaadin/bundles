@@ -38,6 +38,7 @@
   "homepage": "https://github.com/vaadin/platform#readme",
   "devDependencies": {
     "@lit/reactive-element": "./src/fake-modules/@lit/reactive-element",
+	"@lit-labs/ssr-dom-shim": "./src/fake-modules/@lit-labs/ssr-dom-shim",
     "@polymer/iron-icon": "3.0.1",
     "@polymer/iron-iconset-svg": "3.0.1",
     "@polymer/iron-media-query": "3.0.1",
@@ -188,7 +189,7 @@
     "@vaadin/text-field": "23.2.15",
     "@vaadin/time-picker": "23.2.15",
     "@vaadin/upload": "23.2.15",
-    "@vaadin/vaadin-development-mode-detector": "2.0.5",
+    "@vaadin/vaadin-development-mode-detector": "2.0.6",
     "@vaadin/vaadin-list-mixin": "23.2.15",
     "@vaadin/vaadin-lumo-styles": "23.2.15",
     "@vaadin/vaadin-overlay": "23.2.15",

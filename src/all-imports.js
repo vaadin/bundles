@@ -103,6 +103,7 @@ import 'quickselect';
 // ignore bundle internal import 'lit-html';
 // ignore bundle internal import 'lit-element';
 // ignore bundle internal import '@lit/reactive-element';
+// ignore bundle internal import '@lit-labs/ssr-dom-shim';
 
 import 'lit';
 import 'lit/async-directive.js';

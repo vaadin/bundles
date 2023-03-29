@@ -20,6 +20,7 @@ export const exposePackages = {
     'lit-html',
     'lit-element',
     '@lit/reactive-element',
+	'@lit-labs/ssr-dom-shim',
     // NOTE: ShadyCSS is excluded to allow installing a different version
     // (for example, older version from package-lock.json during upgrade)
     '@webcomponents/shadycss',
@@ -104,4 +105,5 @@ export const autoUpdatePackages = [
   'lit-element',
   '@lit/reactive-element',
   '@webcomponents/shadycss',
+  '@lit-labs/ssr-dom-shim',
 ];
