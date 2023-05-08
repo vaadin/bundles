@@ -55,6 +55,9 @@ import '@vaadin/radio-group';
 import '@vaadin/scroller';
 import '@vaadin/select';
 import '@vaadin/select/lit.js';
+import '@vaadin/side-nav';
+import '@vaadin/side-nav/enable.js';
+import '@vaadin/side-nav/vaadin-side-nav-item.js';
 import '@vaadin/split-layout';
 import '@vaadin/tabs';
 import '@vaadin/tabsheet';
@@ -89,6 +92,7 @@ import '@vaadin/vaadin-themable-mixin';
 import '@vaadin/vaadin-development-mode-detector';
 import '@vaadin/vaadin-usage-statistics';
 /* External dependencies */
+import '@open-wc/dedupe-mixin';
 import '@polymer/polymer';
 // ignore non-resolvable import '@webcomponents/shadycss';
 import 'cookieconsent';

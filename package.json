@@ -96,6 +96,7 @@
     "@vaadin/rich-text-editor": "24.1.0-alpha8",
     "@vaadin/scroller": "24.1.0-alpha8",
     "@vaadin/select": "24.1.0-alpha8",
+    "@vaadin/side-nav": "24.1.0-alpha9",
     "@vaadin/split-layout": "24.1.0-alpha8",
     "@vaadin/tabs": "24.1.0-alpha8",
     "@vaadin/tabsheet": "24.1.0-alpha8",
@@ -125,6 +126,7 @@
     "@vaadin/a11y-base": "24.1.0-alpha8"
   },
   "peerDependencies": {
+    "@open-wc/dedupe-mixin": "1.3.1",
     "@polymer/polymer": "3.5.1",
     "@vaadin/a11y-base": "24.1.0-alpha8",
     "@vaadin/accordion": "24.1.0-alpha8",
@@ -177,6 +179,7 @@
     "@vaadin/rich-text-editor": "24.1.0-alpha8",
     "@vaadin/scroller": "24.1.0-alpha8",
     "@vaadin/select": "24.1.0-alpha8",
+    "@vaadin/side-nav": "24.1.0-alpha9",
     "@vaadin/split-layout": "24.1.0-alpha8",
     "@vaadin/tabs": "24.1.0-alpha8",
     "@vaadin/tabsheet": "24.1.0-alpha8",
@@ -199,6 +202,9 @@
     "rbush": "3.0.1"
   },
   "peerDependenciesMeta": {
+    "@open-wc/dedupe-mixin": {
+      "optional": true
+    },
     "@polymer/polymer": {
       "optional": true
     },
@@ -353,6 +359,9 @@
       "optional": true
     },
     "@vaadin/select": {
+      "optional": true
+    },
+    "@vaadin/side-nav": {
       "optional": true
     },
     "@vaadin/split-layout": {
