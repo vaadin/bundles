@@ -92,6 +92,7 @@ import '@vaadin/vaadin-themable-mixin';
 import '@vaadin/vaadin-development-mode-detector';
 import '@vaadin/vaadin-usage-statistics';
 /* External dependencies */
+import '@open-wc/dedupe-mixin';
 import '@polymer/polymer';
 // ignore non-resolvable import '@webcomponents/shadycss';
 import 'cookieconsent';
