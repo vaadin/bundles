@@ -81,6 +81,7 @@ export const vaadinWebComponentPackages = [
   '@vaadin/rich-text-editor',
   '@vaadin/scroller',
   '@vaadin/select',
+  '@vaadin/side-nav',
   '@vaadin/split-layout',
   '@vaadin/tabs',
   '@vaadin/tabsheet',

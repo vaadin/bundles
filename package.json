@@ -96,6 +96,7 @@
     "@vaadin/rich-text-editor": "24.1.0-alpha8",
     "@vaadin/scroller": "24.1.0-alpha8",
     "@vaadin/select": "24.1.0-alpha8",
+    "@vaadin/side-nav": "24.1.0-alpha9",
     "@vaadin/split-layout": "24.1.0-alpha8",
     "@vaadin/tabs": "24.1.0-alpha8",
     "@vaadin/tabsheet": "24.1.0-alpha8",
@@ -177,6 +178,7 @@
     "@vaadin/rich-text-editor": "24.1.0-alpha8",
     "@vaadin/scroller": "24.1.0-alpha8",
     "@vaadin/select": "24.1.0-alpha8",
+    "@vaadin/side-nav": "24.1.0-alpha9",
     "@vaadin/split-layout": "24.1.0-alpha8",
     "@vaadin/tabs": "24.1.0-alpha8",
     "@vaadin/tabsheet": "24.1.0-alpha8",
@@ -353,6 +355,9 @@
       "optional": true
     },
     "@vaadin/select": {
+      "optional": true
+    },
+    "@vaadin/side-nav": {
       "optional": true
     },
     "@vaadin/split-layout": {
