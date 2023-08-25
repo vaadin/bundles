@@ -56,7 +56,6 @@ import '@vaadin/scroller';
 import '@vaadin/select';
 import '@vaadin/select/lit.js';
 import '@vaadin/side-nav';
-import '@vaadin/side-nav/enable.js';
 import '@vaadin/side-nav/vaadin-side-nav-item.js';
 import '@vaadin/split-layout';
 import '@vaadin/tabs';
