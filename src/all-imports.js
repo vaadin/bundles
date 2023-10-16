@@ -142,8 +142,6 @@ import 'lit/directives/unsafe-html.js';
 import 'lit/directives/unsafe-svg.js';
 import 'lit/directives/until.js';
 import 'lit/directives/when.js';
-import 'lit/experimental-hydrate-support.js';
-import 'lit/experimental-hydrate.js';
 import 'lit/html.js';
 import 'lit/polyfill-support.js';
 import 'lit/static-html.js';
