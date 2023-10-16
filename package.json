@@ -1,6 +1,6 @@
 {
   "name": "@vaadin/bundles",
-  "version": "24.3.0-alpha5",
+  "version": "24.3.0-alpha4",
   "publishConfig": {
     "access": "public"
   },
