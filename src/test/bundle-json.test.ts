@@ -83,7 +83,7 @@ describe('vaadin-bundle.json', () => {
     getPackage('highcharts');
 
     const lit = getPackage('lit');
-    expect(lit.version).to.match(/^2\./);
+    expect(lit.version).to.match(/^3\./);
   });
 
   it('shoud not contain itself', () => {
