@@ -50,6 +50,7 @@ import '@vaadin/number-field';
 import '@vaadin/overlay';
 import '@vaadin/password-field';
 import '@vaadin/polymer-legacy-adapter';
+import '@vaadin/popover';
 import '@vaadin/progress-bar';
 import '@vaadin/radio-group';
 import '@vaadin/scroller';
