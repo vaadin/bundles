@@ -7,7 +7,7 @@ on:
       - '23.0'
       - '23.1'
       - '23.2'
-      - '23.3'
+      - '23.4'
     paths-ignore:
       - 'README.md'
       - '.github/ISSUE_TEMPLATE/*'
