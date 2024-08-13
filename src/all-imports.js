@@ -141,6 +141,7 @@ import 'lit/directives/repeat.js';
 import 'lit/directives/style-map.js';
 import 'lit/directives/template-content.js';
 import 'lit/directives/unsafe-html.js';
+import 'lit/directives/unsafe-mathml.js';
 import 'lit/directives/unsafe-svg.js';
 import 'lit/directives/until.js';
 import 'lit/directives/when.js';
