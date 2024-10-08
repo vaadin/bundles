@@ -62,6 +62,7 @@
     "@vaadin/cookie-consent": "24.6.0-alpha1",
     "@vaadin/crud": "24.6.0-alpha1",
     "@vaadin/custom-field": "24.6.0-alpha1",
+    "@vaadin/dashboard": "24.6.0-alpha1",
     "@vaadin/date-picker": "24.6.0-alpha1",
     "@vaadin/date-time-picker": "24.6.0-alpha1",
     "@vaadin/details": "24.6.0-alpha1",
@@ -146,6 +147,7 @@
     "@vaadin/cookie-consent": "24.6.0-alpha1",
     "@vaadin/crud": "24.6.0-alpha1",
     "@vaadin/custom-field": "24.6.0-alpha1",
+    "@vaadin/dashboard": "24.6.0-alpha1",
     "@vaadin/date-picker": "24.6.0-alpha1",
     "@vaadin/date-time-picker": "24.6.0-alpha1",
     "@vaadin/details": "24.6.0-alpha1",
@@ -259,6 +261,9 @@
       "optional": true
     },
     "@vaadin/custom-field": {
+      "optional": true
+    },
+    "@vaadin/dashboard": {
       "optional": true
     },
     "@vaadin/date-picker": {

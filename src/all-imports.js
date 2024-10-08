@@ -75,6 +75,7 @@ import '@vaadin/charts';
 import '@vaadin/confirm-dialog';
 import '@vaadin/cookie-consent';
 import '@vaadin/crud';
+import '@vaadin/dashboard';
 import '@vaadin/grid-pro';
 import '@vaadin/grid-pro/lit.js';
 import '@vaadin/grid-pro/vaadin-grid-pro-edit-column.js';
