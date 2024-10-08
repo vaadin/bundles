@@ -114,7 +114,7 @@
     "@vaadin/virtual-list": "24.5.0-beta1",
     "chai": "^4.3.4",
     "cookieconsent": "3.1.1",
-    "lit": "3.2.0",
+    "lit": "3.2.1",
     "lit-element": "./src/fake-modules/lit-element",
     "lit-html": "./src/fake-modules/lit-html",
     "mocha": "^9.2.0",
@@ -198,7 +198,7 @@
     "@vaadin/virtual-list": "24.5.0-beta1",
     "cookieconsent": "3.1.1",
     "highcharts": "9.2.2",
-    "lit": "3.2.0",
+    "lit": "3.2.1",
     "ol": "6.13.0",
     "quickselect": "2.0.0",
     "rbush": "3.0.1"
