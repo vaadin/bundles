@@ -39,7 +39,7 @@
   "devDependencies": {
     "@lit/reactive-element": "./src/fake-modules/@lit/reactive-element",
     "@lit-labs/ssr-dom-shim": "./src/fake-modules/@lit-labs/ssr-dom-shim",
-    "@polymer/polymer": "3.5.1",
+    "@polymer/polymer": "3.5.2",
     "@rollup/plugin-node-resolve": "^13.1.3",
     "@rollup/plugin-typescript": "^8.3.0",
     "@rollup/pluginutils": "^4.1.2",
@@ -128,7 +128,7 @@
   },
   "peerDependencies": {
     "@open-wc/dedupe-mixin": "1.4.0",
-    "@polymer/polymer": "3.5.1",
+    "@polymer/polymer": "3.5.2",
     "@vaadin/a11y-base": "24.5.0-beta1",
     "@vaadin/accordion": "24.5.0-beta1",
     "@vaadin/app-layout": "24.5.0-beta1",
