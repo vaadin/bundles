@@ -47,6 +47,7 @@ export const vaadinWebComponentPackages = [
   '@vaadin/cookie-consent',
   '@vaadin/crud',
   '@vaadin/custom-field',
+  '@vaadin/dashboard',
   '@vaadin/date-picker',
   '@vaadin/date-time-picker',
   '@vaadin/details',
