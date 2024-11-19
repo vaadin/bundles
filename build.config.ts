@@ -37,6 +37,7 @@ export const vaadinWebComponentPackages = [
   '@vaadin/avatar',
   '@vaadin/board',
   '@vaadin/button',
+  '@vaadin/card',
   '@vaadin/charts',
   '@vaadin/checkbox-group',
   '@vaadin/checkbox',

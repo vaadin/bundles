@@ -5,6 +5,7 @@ import '@vaadin/app-layout/vaadin-drawer-toggle.js';
 import '@vaadin/avatar';
 import '@vaadin/avatar-group';
 import '@vaadin/button';
+import '@vaadin/card';
 import '@vaadin/checkbox';
 import '@vaadin/checkbox-group';
 import '@vaadin/combo-box';

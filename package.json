@@ -52,6 +52,7 @@
     "@vaadin/avatar-group": "24.6.0-alpha9",
     "@vaadin/board": "24.6.0-alpha9",
     "@vaadin/button": "24.6.0-alpha9",
+    "@vaadin/card": "24.6.0-alpha9",
     "@vaadin/charts": "24.6.0-alpha9",
     "@vaadin/checkbox": "24.6.0-alpha9",
     "@vaadin/checkbox-group": "24.6.0-alpha9",
@@ -137,6 +138,7 @@
     "@vaadin/avatar-group": "24.6.0-alpha9",
     "@vaadin/board": "24.6.0-alpha9",
     "@vaadin/button": "24.6.0-alpha9",
+    "@vaadin/card": "24.6.0-alpha9",
     "@vaadin/charts": "24.6.0-alpha9",
     "@vaadin/checkbox": "24.6.0-alpha9",
     "@vaadin/checkbox-group": "24.6.0-alpha9",
@@ -231,6 +233,9 @@
       "optional": true
     },
     "@vaadin/button": {
+      "optional": true
+    },
+    "@vaadin/card": {
       "optional": true
     },
     "@vaadin/charts": {
