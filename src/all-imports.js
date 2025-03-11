@@ -21,6 +21,7 @@ import '@vaadin/dialog/lit.js';
 import '@vaadin/email-field';
 import '@vaadin/field-highlighter';
 import '@vaadin/form-layout';
+import '@vaadin/form-layout/vaadin-form-row.js';
 import '@vaadin/form-layout/vaadin-form-item.js';
 import '@vaadin/grid';
 import '@vaadin/grid/lit.js';
