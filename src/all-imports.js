@@ -41,6 +41,7 @@ import '@vaadin/lit-renderer';
 import '@vaadin/login';
 import '@vaadin/login/vaadin-login-overlay.js';
 import '@vaadin/login/vaadin-login-form.js';
+import '@vaadin/master-detail-layout';
 import '@vaadin/menu-bar';
 import '@vaadin/message-input';
 import '@vaadin/message-list';

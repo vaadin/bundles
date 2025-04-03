@@ -69,6 +69,7 @@ export const vaadinWebComponentPackages = [
   '@vaadin/lit-renderer',
   '@vaadin/login',
   '@vaadin/map',
+  '@vaadin/master-detail-layout',
   '@vaadin/menu-bar',
   '@vaadin/message-input',
   '@vaadin/message-list',
