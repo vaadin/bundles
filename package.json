@@ -84,6 +84,7 @@
     "@vaadin/lit-renderer": "24.8.0-alpha15",
     "@vaadin/login": "24.8.0-alpha15",
     "@vaadin/map": "24.8.0-alpha15",
+    "@vaadin/markdown": "24.8.0-alpha16",
     "@vaadin/master-detail-layout": "24.8.0-alpha15",
     "@vaadin/menu-bar": "24.8.0-alpha15",
     "@vaadin/message-input": "24.8.0-alpha15",
@@ -171,6 +172,7 @@
     "@vaadin/lit-renderer": "24.8.0-alpha15",
     "@vaadin/login": "24.8.0-alpha15",
     "@vaadin/map": "24.8.0-alpha15",
+    "@vaadin/markdown": "24.8.0-alpha16",
     "@vaadin/master-detail-layout": "24.8.0-alpha15",
     "@vaadin/menu-bar": "24.8.0-alpha15",
     "@vaadin/message-input": "24.8.0-alpha15",
@@ -203,8 +205,10 @@
     "@vaadin/vertical-layout": "24.8.0-alpha15",
     "@vaadin/virtual-list": "24.8.0-alpha15",
     "cookieconsent": "3.1.1",
+    "dompurify": "3.2.5",
     "highcharts": "9.2.2",
     "lit": "3.3.0",
+    "marked": "15.0.11",
     "ol": "6.13.0",
     "quickselect": "2.0.0",
     "rbush": "3.0.1"
@@ -333,6 +337,9 @@
     "@vaadin/map": {
       "optional": true
     },
+    "@vaadin/markdown": {
+      "optional": true
+    },
     "@vaadin/master-detail-layout": {
       "optional": true
     },
@@ -429,10 +436,16 @@
     "cookieconsent": {
       "optional": true
     },
+    "dompurify": {
+      "optional": true
+    },
     "highcharts": {
       "optional": true
     },
     "lit": {
+      "optional": true
+    },
+    "marked": {
       "optional": true
     },
     "ol": {
