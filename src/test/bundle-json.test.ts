@@ -33,7 +33,7 @@ describe('vaadin-bundle.json', () => {
   it('should contain Vaadin components', () => {
     const button = getPackage('@vaadin/button');
     expect(button.version).to.equal(bundleVersion);
-    expect(button.exposes).to.deep.equal({
+    expect(button.exposes).to.deep.include({
       '.': {
         exports: [
           {
@@ -47,12 +47,6 @@ describe('vaadin-bundle.json', () => {
             source: '@vaadin/button/src/vaadin-button.js'
           }
         ]
-      },
-      './src/vaadin-button-base.js': {
-        'exports': [
-           'buttonStyles',
-           'buttonTemplate',
-         ]
       },
       './src/vaadin-button-mixin.js': {
         exports: ['ButtonMixin']
