@@ -48,12 +48,6 @@ describe('vaadin-bundle.json', () => {
           }
         ]
       },
-      './src/vaadin-button-base.js': {
-        'exports': [
-           'buttonStyles',
-           'buttonTemplate',
-         ]
-      },
       './src/vaadin-button-mixin.js': {
         exports: ['ButtonMixin']
       },
