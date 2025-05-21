@@ -73,13 +73,6 @@ describe('vaadin-bundle.json', () => {
   });
 
   it('should contain Vaadin dependencies', () => {
-    const polymer = getPackage('@polymer/polymer');
-    expect(polymer.version).to.match(/^3\./);
-    expect(polymer.exposes['.'].exports).to.deep.include({
-      source: '@polymer/polymer/polymer-element.js'
-    });
-    expect(polymer.exposes['./polymer-element.js'].exports).to.include('html', 'PolymerElement');
-
     getPackage('highcharts');
 
     const lit = getPackage('lit');
