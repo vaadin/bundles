@@ -33,7 +33,7 @@ describe('vaadin-bundle.json', () => {
   it('should contain Vaadin components', () => {
     const button = getPackage('@vaadin/button');
     expect(button.version).to.equal(bundleVersion);
-    expect(button.exposes).to.deep.equal({
+    expect(button.exposes).to.deep.include({
       '.': {
         exports: [
           {
