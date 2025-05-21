@@ -81,7 +81,6 @@ export const vaadinWebComponentPackages = [
   '@vaadin/number-field',
   '@vaadin/overlay',
   '@vaadin/password-field',
-  '@vaadin/polymer-legacy-adapter',
   '@vaadin/popover',
   '@vaadin/progress-bar',
   '@vaadin/radio-group',
