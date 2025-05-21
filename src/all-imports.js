@@ -53,7 +53,6 @@ import '@vaadin/notification/lit.js';
 import '@vaadin/number-field';
 import '@vaadin/overlay';
 import '@vaadin/password-field';
-import '@vaadin/polymer-legacy-adapter';
 import '@vaadin/popover';
 import '@vaadin/progress-bar';
 import '@vaadin/radio-group';
@@ -98,8 +97,6 @@ import '@vaadin/vaadin-development-mode-detector';
 import '@vaadin/vaadin-usage-statistics';
 /* External dependencies */
 import '@open-wc/dedupe-mixin';
-import '@polymer/polymer';
-// ignore non-resolvable import '@webcomponents/shadycss';
 import 'cookieconsent';
 import 'highcharts';
 import 'ol';

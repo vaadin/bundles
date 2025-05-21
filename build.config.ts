@@ -21,6 +21,8 @@ export const exposePackages = {
     'lit-element',
     '@lit/reactive-element',
     '@lit-labs/ssr-dom-shim',
+    // TODO: workaround to not include Polymer until it is removed from V25
+    '@polymer/polymer'
   ],
 };
 
@@ -110,4 +112,6 @@ export const autoUpdatePackages = [
   'lit-element',
   '@lit/reactive-element',
   '@lit-labs/ssr-dom-shim',
+  // TODO: workaround to not include Polymer until it is removed from V25
+  '@polymer/polymer'
 ];

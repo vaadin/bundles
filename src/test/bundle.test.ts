@@ -43,8 +43,6 @@ describe('vaadin.js', () => {
     });
 
     it('should contain Vaadin component dependencies', async () => {
-      expect(await get('./node_modules/@polymer/polymer')).to.be.instanceOf(Function);
-      expect(await get('./node_modules/@polymer/polymer/polymer-element.js')).to.be.instanceOf(Function);
       expect(await get('./node_modules/highcharts/es-modules/Core/Chart/Chart.js')).to.be.instanceOf(Function);
     });
 
