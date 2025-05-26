@@ -104,6 +104,7 @@ import 'rbush';
 import 'quickselect';
 import 'marked';
 import 'dompurify';
+import 'style-observer';
 // ignore bundle internal import 'lit-html';
 // ignore bundle internal import 'lit-element';
 // ignore bundle internal import '@lit/reactive-element';
