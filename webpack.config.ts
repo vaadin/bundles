@@ -2,7 +2,7 @@ import { readFile } from 'fs/promises';
 import * as path from 'path';
 import { default as ModuleFederationPlugin } from 'webpack/lib/container/ModuleFederationPlugin.js';
 // @ts-ignore TS2691 ts-node/esm loader fails when missing extension here
-import { modulesDirectory } from './build.config.ts'; 
+import { modulesDirectory } from './build.config.ts';
 import { BundleJson } from './src/lib/bundle-json';
 
 const bundleJson: BundleJson = JSON.parse(await readFile('vaadin-bundle.json', { encoding: 'utf8' }));
@@ -22,9 +22,7 @@ export default {
   },
   resolve: {
     symlinks: false,
-    conditionNames: [
-      'development'
-    ]
+    conditionNames: ['development', 'import']
   },
   module: {
     rules: [
