@@ -207,8 +207,7 @@
     "marked": "15.0.12",
     "ol": "6.13.0",
     "quickselect": "2.0.0",
-    "rbush": "3.0.1",
-    "style-observer": "0.0.8"
+    "rbush": "3.0.1"
   },
   "peerDependenciesMeta": {
     "@open-wc/dedupe-mixin": {
@@ -446,9 +445,6 @@
       "optional": true
     },
     "rbush": {
-      "optional": true
-    },
-    "style-observer": {
       "optional": true
     }
   }

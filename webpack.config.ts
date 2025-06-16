@@ -22,7 +22,7 @@ export default {
   },
   resolve: {
     symlinks: false,
-    conditionNames: ['development', 'import']
+    conditionNames: ['development']
   },
   module: {
     rules: [
