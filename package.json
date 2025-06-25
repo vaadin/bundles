@@ -205,9 +205,9 @@
     "highcharts": "9.2.2",
     "lit": "3.3.0",
     "marked": "15.0.12",
-    "ol": "6.13.0",
-    "quickselect": "2.0.0",
-    "rbush": "3.0.1"
+    "ol": "10.6.0",
+    "quickselect": "3.0.0",
+    "rbush": "4.0.1"
   },
   "peerDependenciesMeta": {
     "@open-wc/dedupe-mixin": {
