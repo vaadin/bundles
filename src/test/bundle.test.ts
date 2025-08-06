@@ -36,7 +36,6 @@ describe('vaadin.js', () => {
       expect(await get('./node_modules/@vaadin/button')).to.be.instanceOf(Function);
       expect(await get('./node_modules/@vaadin/button/vaadin-button.js')).to.be.instanceOf(Function);
       expect(await get('./node_modules/@vaadin/button/src/vaadin-button.js')).to.be.instanceOf(Function);
-      expect(await get('./node_modules/@vaadin/button/theme/lumo/vaadin-button.js')).to.be.instanceOf(Function);
 
       expect(await get('./node_modules/@vaadin/grid')).to.be.instanceOf(Function);
       expect(await get('./node_modules/@vaadin/charts')).to.be.instanceOf(Function);

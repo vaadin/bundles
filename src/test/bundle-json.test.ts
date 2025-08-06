@@ -54,12 +54,6 @@ describe('vaadin-bundle.json', () => {
       './src/vaadin-button.js': {
         exports: ['Button']
       },
-      './theme/lumo/vaadin-button.js': {
-        exports: []
-      },
-      './theme/lumo/vaadin-button-styles.js': {
-        exports: ['button']
-      }
     });
 
     expect(getPackage('@vaadin/grid').version).to.equal(bundleVersion);
