@@ -87,7 +87,11 @@ describe('vaadin-bundle.json', () => {
       .filter((line) => line.startsWith('import '))
       .map((importLine) => /^import '([^']*)';$/.exec(importLine)[1]) as string[];
     const missingPackageNames = new Set(packageNames.sort());
-    allImports.forEach((source) => missingPackageNames.delete(source));
+    allImports.forEach((source) => {
+      // Get the actual npm package name
+      const name = source.split('/').slice(0,2).join('/');
+      missingPackageNames.delete(name);
+    });
     if (missingPackageNames.size > 0) {
       expect.fail(`Detected missing package(s) in src/all-imports.js:
 

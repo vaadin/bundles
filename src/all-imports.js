@@ -85,7 +85,7 @@ import '@vaadin/grid-pro/vaadin-grid-pro-edit-column.js';
 import '@vaadin/map';
 import '@vaadin/rich-text-editor';
 /* Theme */
-import '@vaadin/vaadin-lumo-styles';
+import '@vaadin/vaadin-lumo-styles/icons.js';
 /* Internal dependencies */
 import '@vaadin/component-base';
 import '@vaadin/a11y-base';
