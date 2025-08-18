@@ -45,7 +45,6 @@ export const vaadinWebComponentPackages = [
   '@vaadin/component-base',
   '@vaadin/confirm-dialog',
   '@vaadin/context-menu',
-  '@vaadin/cookie-consent',
   '@vaadin/crud',
   '@vaadin/custom-field',
   '@vaadin/dashboard',

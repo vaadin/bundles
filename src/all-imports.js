@@ -76,7 +76,6 @@ import '@vaadin/virtual-list/lit.js';
 import '@vaadin/board';
 import '@vaadin/charts';
 import '@vaadin/confirm-dialog';
-import '@vaadin/cookie-consent';
 import '@vaadin/crud';
 import '@vaadin/dashboard';
 import '@vaadin/grid-pro';
@@ -97,7 +96,6 @@ import '@vaadin/vaadin-development-mode-detector';
 import '@vaadin/vaadin-usage-statistics';
 /* External dependencies */
 import '@open-wc/dedupe-mixin';
-import 'cookieconsent';
 import 'highcharts';
 import 'ol';
 import 'rbush';
