@@ -5,7 +5,7 @@ import { env } from 'process';
 import { promisify } from 'util';
 import * as child_process from 'child_process';
 import.meta.resolve
-import { autoUpdatePackages, modulesDirectory, vaadinWebComponentPackages } from '../build.config.js';
+import { autoUpdatePackages, dependencyPackages, modulesDirectory, vaadinWebComponentPackages } from '../build.config.js';
 import { Module } from 'module';
 
 async function exec(cmd: string): Promise<void> {
@@ -31,6 +31,9 @@ for (const p of vaadinWebComponentPackages) {
   packageJson.devDependencies[p] = version;
   packageJson.peerDependencies[p] = version;
 }
+Object.entries(dependencyPackages).forEach(([p,v]) => {
+  packageJson.peerDependencies[p] = v;
+});
 await fsPromises.writeFile(
   'package.json',
   JSON.stringify(packageJson, undefined, 2),
