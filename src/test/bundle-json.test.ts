@@ -89,7 +89,8 @@ describe('vaadin-bundle.json', () => {
     const missingPackageNames = new Set(packageNames.sort());
     allImports.forEach((source) => {
       // Get the actual npm package name
-      const name = source.split('/').slice(0,2).join('/');
+      const len = source.startsWith('@') ? 2 : 1;
+      const name = source.split('/').slice(0,len).join('/');
       missingPackageNames.delete(name);
     });
     if (missingPackageNames.size > 0) {

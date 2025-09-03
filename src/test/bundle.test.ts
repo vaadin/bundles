@@ -43,6 +43,7 @@ describe('vaadin.js', () => {
 
     it('should contain Vaadin component dependencies', async () => {
       expect(await get('./node_modules/highcharts/es-modules/Core/Chart/Chart.js')).to.be.instanceOf(Function);
+      expect(await get('./node_modules/highcharts/es-modules/masters/highstock.src.js')).to.be.instanceOf(Object);
     });
 
     it('shoud not contain itself', async () => {

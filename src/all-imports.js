@@ -96,7 +96,7 @@ import '@vaadin/vaadin-development-mode-detector';
 import '@vaadin/vaadin-usage-statistics';
 /* External dependencies */
 import '@open-wc/dedupe-mixin';
-import 'highcharts';
+import 'highcharts/es-modules/masters/highstock.src.js';
 import 'ol';
 import 'rbush';
 import 'quickselect';
