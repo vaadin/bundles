@@ -99,6 +99,10 @@ export const vaadinWebComponentPackages = [
   '@vaadin/vertical-layout',
 ];
 
+export const dependencyPackages = {
+  highcharts: '12.2.0'
+};
+
 /**
  * The listed packages are automatically updated to the newest matching
  * version for every new version of bundles. See the `npm version` script.
