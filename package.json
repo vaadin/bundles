@@ -198,7 +198,7 @@
     "@vaadin/vertical-layout": "25.0.0-alpha16",
     "@vaadin/virtual-list": "25.0.0-alpha16",
     "dompurify": "3.2.6",
-    "highcharts": "9.2.2",
+    "highcharts": "12.2.0",
     "lit": "3.3.1",
     "marked": "15.0.12",
     "ol": "10.6.0",
