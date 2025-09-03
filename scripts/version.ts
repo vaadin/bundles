@@ -32,7 +32,6 @@ for (const p of vaadinWebComponentPackages) {
   packageJson.peerDependencies[p] = version;
 }
 Object.entries(dependencyPackages).forEach(([p,v]) => {
-  packageJson.devDependencies[p] = v;
   packageJson.peerDependencies[p] = v;
 });
 await fsPromises.writeFile(
