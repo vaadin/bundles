@@ -14,16 +14,9 @@ on:
     paths-ignore:
       - 'README.md'
       - '.github/ISSUE_TEMPLATE/*'
-  pull_request_target:
+  pull_request:
     branches:
-      - 'main'
       - '24.9'
-      - '24.8'
-      - '24.0'
-      - '23.0'
-      - '23.1'
-      - '23.2'
-      - '23.3'
     paths-ignore:
       - 'README.md'
       - '.github/ISSUE_TEMPLATE/*'
