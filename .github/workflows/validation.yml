@@ -16,7 +16,7 @@ on:
       - '.github/ISSUE_TEMPLATE/*'
   pull_request:
     branches:
-      - '24.9'
+      - '24.10'
     paths-ignore:
       - 'README.md'
       - '.github/ISSUE_TEMPLATE/*'
