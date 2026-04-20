@@ -205,7 +205,7 @@
     "@vaadin/vertical-layout": "24.9.13",
     "@vaadin/virtual-list": "24.9.13",
     "cookieconsent": "3.1.1",
-    "dompurify": "3.3.2",
+    "dompurify": "3.4.0",
     "highcharts": "9.2.2",
     "lit": "3.3.2",
     "marked": "15.0.12",
