@@ -1,5 +1,5 @@
 import { promises as fs } from 'fs';
-import { posix as path } from 'path';
+import * as path from 'path';
 import { BundleJson } from './bundle-json';
 import { ExposeInfo } from './expose-info';
 import { PackageInfo } from './package-info';

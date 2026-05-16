@@ -1,5 +1,5 @@
 import { nodeResolve } from '@rollup/plugin-node-resolve';
-import { posix as path } from 'path';
+import * as path from 'path';
 import { RollupOptions } from 'rollup';
 import { modulesDirectory, exposePackages } from './build.config';
 import { bundleInfoRollupPlugin } from './src/lib/bundle-info-rollup-plugin';
