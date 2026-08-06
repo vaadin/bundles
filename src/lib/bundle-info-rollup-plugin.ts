@@ -3,7 +3,7 @@ import type { Program } from 'estree';
 import type { FunctionDeclaration, Identifier, Property, VariableDeclarator } from 'estree';
 import { walk } from 'estree-walker';
 import * as fs from 'fs/promises';
-import { posix as path } from 'path';
+import * as path from 'path';
 import { Plugin } from 'rollup';
 import { autoUpdatePackages } from '../../build.config';
 import { BundleStore } from './bundle-store';
