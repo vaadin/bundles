@@ -12,7 +12,7 @@ on:
     paths-ignore:
       - 'README.md'
       - '.github/ISSUE_TEMPLATE/*'
-  pull_request_target:
+  pull_request:
     branches:
       - 'main'
       - '24.0'
@@ -24,6 +24,9 @@ on:
       - 'README.md'
       - '.github/ISSUE_TEMPLATE/*'
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   test:
     name: Validation
@@ -32,16 +35,15 @@ jobs:
 
     steps:
       - name: Checkout Project Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           fetch-depth: 0
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v5
         with:
           node-version: 'lts/*'
       - name: Install dependencies and build
         run: npm ci
       - name: Test
         run: npm test
-
