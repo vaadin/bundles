@@ -5,3 +5,4 @@ rollup.config.ts
 webpack.config.ts
 .mocharc.json
 tsconfig.json
+ARCHITECTURE.md
